@@ -384,7 +384,6 @@ We do that because "[the faintest pencil is better than the sharpest memory](htt
 It is far more efficient to read a document at your convenience than to have to ask and explain. Having something in version control also lets everyone contribute suggestions to improve it.
 
 ##### Boring solutions
-{:.no_toc}
 Use the simplest and most boring solution for a problem, and remember that [“boring” should not be conflated with “bad” or “technical debt.”](http://mcfunley.com/choose-boring-technology)
 The speed of innovation for our organization and product is constrained by the total complexity we have added so far, so every little reduction in complexity helps.
 Don’t pick an interesting technology just to make your work more fun;
