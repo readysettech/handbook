@@ -1,23 +1,6 @@
----
-layout: handbook-page-toc
-title: "GitLab Values"
-description: Learn more about how we live our values at GitLab
-twitter_image: "/images/opengraph/Talent-Brand/hiring-day-in-the-life-darren.png"
-twitter_image_alt: "GitLab Team Member working from home office, happy to see baby join the video call."
-twitter_site: "@gitlab"
-twitter_creator: "@gitlab"
-
----
-
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ## CREDIT
 
-GitLab's six values are
+Our six values are
 [**🤝 Collaboration**](#collaboration),
 [**📈 Results** ](#results),
 [**⏱️ Efficiency**](#efficiency),
@@ -25,49 +8,23 @@ GitLab's six values are
 [**👣 Iteration**](#iteration), and
 [**👁️ Transparency**](#transparency),
 and together they spell the **CREDIT** we give each other by assuming
-good intent. We react to them [with values
-emoji](/handbook/communication/#values-emoji) and they are made
-actionable below.
-
-### About our values
-{:.no_toc}
-
-<div align="center">
-<a href="#collaboration"><img style="padding-right: 20px; padding-bottom: 20px" src="/images/all-remote/gitlab-value-tanukis_collaberation.svg" alt="Collaboration" title="Collaboration" height="78"></a>  <a href="#results"><img style="padding-right: 20px; padding-bottom: 20px" src="/images/all-remote/gitlab-value-tanukis_results.svg" alt="Results" title="Results" height="78"></a>  <a href="#efficiency"><img style="padding-right: 20px; padding-bottom: 20px" src="/images/all-remote/gitlab-value-tanukis_efficiency.svg" alt="Efficiency" title="Efficiency" height="78"></a>  <a href="#diversity-inclusion"><img style="padding-right: 20px; padding-bottom: 20px" src="/images/all-remote/gitlab-value-tanukis_diversity.svg" alt="Diversity, Inclusion &amp; Belonging" title="Diversity, Inclusion &amp; Belonging" height="78"></a>  <a href="#iteration"><img style="padding-right: 20px; padding-bottom: 20px" src="/images/all-remote/gitlab-value-tanukis_iteration.svg" alt="Iteration" title="Iteration" height="78"></a>  <a href="#transparency"><img style="padding-bottom: 20px" src="/images/all-remote/gitlab-value-tanukis_transparency.svg" alt="Transparency" title="Transparency" height="78"></a>
-</div>
+good intent.
 
 We take inspiration from other companies, and we always go for the [boring solutions](#boring-solutions).
 Just like the rest of our work, we continually adjust our values and strive to make them better.
-GitLab values are a living document.
+These values are a living document.
 In many instances, they have been documented, refined, and revised based on lessons learned (and scars earned) in the course of doing business.
 
-We used to have more values, but it was difficult to remember them all, so we condensed them and gave sub-values and created an acronym.
-
-Everyone is welcome to suggest improvements.
-
-#### Sub-values as substantiators
-{:.no_toc}
-
-The "sub" in sub-value is not in reference to "subordinate," but rather, "**substantiate**."
-Sub-values define top-level values, and are most easily lived out.
-You may see other companies with some of our top-level values,
-though our unique collection of sub-values are critical to add context and remove ambiguity.
-
-Sub-values clarify what a given value means and looks like *at GitLab*.
-Understanding this distinction is critical to thriving at GitLab,
-particularly for [newer team members](/company/culture/all-remote/getting-started/) who may be familiar with a prior organization's interpretation of iteration or collaboration (as examples).
 
 ## 🤝 Collaboration
-{:#collaboration .gitlab-purple}
 
 Helping others is a priority, even when it is not immediately related to the goals that you are trying to achieve.
 Similarly, you can rely on others for help and advice—in fact, you're expected to do so.
-Anyone can chime in on any subject, including people who don't work at GitLab.
+Anyone can chime in on any subject.
 The person who's responsible for the work decides how to do it,
 but they should always take each suggestion seriously and try to respond and explain why it may or may not have been implemented.
 
 ##### Kindness
-{:.no_toc}
 We value caring for others.
 Demonstrating we care for people provides an effective framework for challenging directly and delivering feedback.
 We disagree with companies that say [Evaluate People Accurately, Not "Kindly"](https://inside.bwater.com/publications/principles_excerpt).
@@ -75,10 +32,8 @@ We're all for accurate assessment, but we think it must be done in a kind way.
 Give as much positive feedback as you can, and do it in a public way.
 
 ##### Share
-{:.no_toc}
-There are aspects of GitLab culture, such as intentional transparency, that are unintuitive to outsiders and new team members.
 Be willing to invest in people and engage in open dialogue.
-For example, consider making private issues public wherever possible so that we can all learn from the experience. Don't be afraid of judgement or scrutiny when sharing publicly, we all understand [it's impossible to know everything](/handbook/values/#its-impossible-to-know-everything).
+For example, consider making private issues public wherever possible so that we can all learn from the experience. Don't be afraid of judgement or scrutiny when sharing publicly, we all understand it's impossible to know everything.
 
 Everyone can **remind** anyone in the company about our values.
 If there is a disagreement about the interpretations, the discussion can be escalated to more people within the company without repercussions.
@@ -86,13 +41,12 @@ If there is a disagreement about the interpretations, the discussion can be esca
 Share problems you run into, ask for help, be forthcoming with information and **speak up**.
 
 ##### Negative feedback is 1-1
-{:.no_toc}
 Give negative feedback in the smallest setting possible.
 One-on-one video calls are preferred.
 If you are unhappy with anything (your duties, your colleague, your boss, your salary, your location, your computer), please let your boss, or the CEO, know as soon as you realize it.
 We want to solve problems while they are **small**.
 
-Negative *feedback* is distinct from negativity and disagreement. If there is no direct feedback involved, strive to discuss disagreement [in a public channel](/handbook/communication/#use-public-channels), respectfully and [transparently](/handbook/values/#transparency).
+Negative *feedback* is distinct from negativity and disagreement. If there is no direct feedback involved, strive to discuss disagreement in a public channel (e.g. the appropriate email group or Slack channel for your team), respectfully and [transparently](/handbook/values/#transparency).
 
 In a [GitLab Unfiltered interview on values](https://youtu.be/7kMQj4O4ZGU), GitLab co-founder and CEO Sid Sijbrandij offers the following context.
 
