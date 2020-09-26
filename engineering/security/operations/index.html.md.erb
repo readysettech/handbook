@@ -1,0 +1,61 @@
+---
+layout: handbook-page-toc
+title: Security Operations Sub-department
+---
+
+## On this page
+{:.no_toc .hidden-md .hidden-lg}
+
+- TOC
+{:toc .hidden-md .hidden-lg}
+
+## Vision
+
+Protect company property by identifying, preventing, detecting and responding to risks and security events targeting the business and GitLab.com and its users. We are at the forefront of GitLab's security.
+
+## Mission
+
+The Security Operations Sub-department focuses on the operational aspect of security. Our Sub-department consists of experienced breakers, builders, and defenders from all walks of life and geographic locations. We are responsible for improving GitLab's security capabilities and metrics in the areas of:
+
+ * Realistic cyber attack scenarios against GitLab.com, company property, and employees - [Red Team](/handbook/engineering/security/red-team), [Issues Tracker](https://gitlab.com/gitlab-com/gl-security/security-operations/red-team)
+ * Security anomaly/event detection and incident response - [SIRT - Security Incident Response Team](/handbook/engineering/security/sec-incident-response.html), [Issues Tracker](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt)
+ * Abuse of GitLab.com - [Trust & Safety](/handbook/engineering/security/operations/abuse), [Issues Tracker](https://gitlab.com/gitlab-com/gl-security/security-operations/trust-and-safety)
+
+
+## Sub-department Members
+
+The following people are permanent members of the Security Operations Sub-department:
+
+<%
+departments = ['Red Team', 'Trust & Safety', 'Security Incident Response Team']
+interim_manager_departments = ['Security Incident Response Team']
+department_regexp = /(#{Regexp.union(departments)})/
+%>
+
+<%=  direct_team(role_regexp: department_regexp, manager_role: "Director of Security Operations") %>
+
+## All Team Members
+
+The following people are permanent members of teams that belong to the Operations Sub-department:
+
+<% departments.each do |dep| %>
+### <%= dep %>
+  <% manager_role = interim_manager_departments.include?(dep) ? "Security Manager, #{dep} (Interim)" : "Security Manager, #{dep}" %>
+  <%= direct_team(manager_role: manager_role) %>
+<% end %>
+
+### Resources and Tools
+
+#### Security Enclave GCP Environment
+
+For activities and tools that require confidentiality and availability independent of GitLab.com
+resources, an [independent GCP environment](../planning/security-enclave)
+
+The main project for tracking work is [security-enclave>](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/security-enclave/security-enclave).
+
+## Common Links
+
+* [How to page/engage the Security On-Call](https://patch-198261122545-jurbanc.about.gitlab-review.app/handbook/engineering/security/index.html#engaging-the-security-on-call)
+* Slack channel to interact with the teams [#security-department](https://gitlab.slack.com/archives/CM74JMLTU)
+* [GitLab Security Deparment Group (GitLab)](https://gitlab.com/gitlab-com/gl-security)
+* [GitLab Security Operations Sub-department Group (GitLab)](https://gitlab.com/gitlab-com/gl-security/security-operations)

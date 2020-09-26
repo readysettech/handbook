@@ -1,0 +1,467 @@
+---
+layout: handbook-page-toc
+title: "Technical Writing Team"
+---
+
+## On this page
+{:.no_toc .hidden-md .hidden-lg}
+
+- TOC
+{:toc .hidden-md .hidden-lg}
+
+## About Us
+
+The primary goal of the Technical Writing team is to continuously develop the GitLab
+product documentation to meet the evolving needs of all users and administrators.
+
+Documentation educates readers about features and best practices,
+and enables them to efficiently configure, use, and troubleshoot GitLab. To this end, the
+team also manages the [docs.gitlab.com](https://docs.gitlab.com) site and related process and tooling.
+
+Our team comprises:
+
+- A [Senior Technical Writing Manager](/job-families/engineering/technical-writing-manager/#senior-manager-technical-writing).
+- A [Technical Writing Manager](/job-families/engineering/technical-writing-manager/).
+- A group of [Technical Writers](/job-families/engineering/technical-writer/).
+
+Technical Writers partner with anyone in the GitLab community who is concerned with
+documentation, especially developers, who are typically the first to update docs for the
+GitLab features that they code.
+
+Use the private-to-GitLab [#docs](https://gitlab.slack.com/messages/C16HYA2P5)
+Slack channel to contact the Technical Writing team. To contact the entire team
+in a GitLab issue or MR, use `@gl-docsteam`.
+
+## Projects
+
+Technical Writers:
+
+- Act as maintainers of documentation for many [engineering projects](../../projects/).
+- Act as authors or reviewers of the documentation in collaboration with others in the GitLab community.
+- Are [assigned](#assignments) to specific DevOps stage groups.
+
+For more information on documentation at GitLab, see:
+
+- The [Documentation](../../documentation/) section of the Handbook.
+- [GitLab Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/) in the contributor documentation.
+
+## Slack channels
+
+The Technical Writing team manages team-specific and general documentation-related Slack channels:
+
+- `#docs`: For generic GitLab documentation discussion.
+- `#docs-comments`: For automated messages from [Disqus comments](https://docs.gitlab.com/ee/development/documentation/structure.html#disqus).
+- `#docs-processes`: For discussion relating to the [Style Guide group](#style-guide-group) and documentation processes.
+- `#docs-tooling`: For discussion relating to the [Test Automation Commitee](#test-automation-committee),
+  documentation tooling, and the `gitlab-docs` project.
+- `#docs-site-changes`: For automated messages from [`gitlab-docs`](https://gitlab.com/gitlab-org/gitlab-docs) project.
+- `#tw-team`: For Technical Writing team chat.
+- `#tw-social`: For Technical Writing team social chat!
+
+## Responsibilities
+
+The team is broadly responsible for the following areas at GitLab.
+
+### Content
+
+- [Documentation content](https://gitlab.com/groups/gitlab-org/-/roadmap?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Documentation&label_name[]=epic-level-1&search=Content), including:
+  - [Developing new content](https://gitlab.com/groups/gitlab-org/-/epics/774) to meet the needs of the community.
+  - [Reviewing and collaborating on documentation plans](https://gitlab.com/groups/gitlab-org/-/epics/776), reviewing doc merge requests or recently merged docs, and ensuring that content meets style and language standards.
+  - [Reorganizing, revamping, and authoring improved content](https://gitlab.com/groups/gitlab-org/-/epics/775) to ensure completeness and a smooth user experience.
+- UI content
+  - Collaborating with Product Designers on and review of various forms of UI text, such as microcopy, links from the UI to documentation, error messages, UI element labels, etc.
+
+### Publishing
+
+[Documentation Site](https://gitlab.com/groups/gitlab-com/-/epics?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=Documentation) (docs.gitlab.com) including
+maintaining and enhancing the documentation site’s:
+
+- Architecture
+- Design
+- Automation
+- Versioning
+- Search
+- SEO
+- Feedback methods
+- Analytics
+
+### Processes
+
+[Documentation Process](https://gitlab.com/groups/gitlab-org/-/epics/779), including:
+
+- Ensuring that processes are in place and being followed to keep the GitLab docs up to date.
+- Following and optimizing documentation workflows with Product and Engineering, Documentation Team workflows, and the division of work.
+- Triaging doc-related issues.
+- Refining the [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide.html) and continuously improving content about GitLab documentation and its contribution process.
+- Making it easier for anyone to contribute to the documentation while efficiently handling community contributions to docs.
+
+#### Style Guide group
+
+The Style Guide group is responsible for style recommendations for the product
+documentation and release posts, and for the upkeep of the
+[Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide.html).
+
+Although participation in the group will rotate through the Technical Writer
+team (on a schedule yet to be determined), any Technical Writer (or other
+contributor) can make suggestions for documentation style updates or additions
+by creating an issue/MR with the `~tw-style` label and then assigning the
+issue/MR to the Style Guide group team members.
+
+Team members will complete their work for most of the raised style issues
+asynchronously, but will raise major changes or issues requiring additional
+direction to the DRI for resolution.
+
+Use the following searches to track completed style-related issues:
+
+- [GitLab project style issues](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=tw-style)
+- [GitLab project style MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=tw-style)
+- [Technical Writing project style issues](https://gitlab.com/gitlab-org/technical-writing/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=tw-style)
+
+#### Test Automation Committee
+
+The Test Automation Committee covers:
+
+- Content linting in documentation or other places where technical content may be displayed, such as the GitLab UI or Release Post.
+  - The development and maintenance of linting with Vale, Markdownlint, and potential UI app/views content linting.
+- Other related testing:
+  - Nanoc tests, including the external links checker.
+  - `lint-doc.sh`, which includes checking file permissions and preventing new `README.md` files.
+  - Any future doc site rendering tests (e.g. with Selenium) or YML file checking (e.g. with YAMLlint).
+
+Responsibilities:
+
+- Implement new linting requests, driven by style changes or with accompanying style change proposals, where applicable.
+- Review MRs with the `~tw-testing` label.
+- Maintain and update current linting rules as needed.
+- Maintain and update linting applications, including version updates and pipeline configuration.
+- Monitor #docs-linting.
+- Monitor the `#docs-tooling` [Slack channel](#slack-channels) and help with testing questions.
+
+Committee roles:
+
+- The docs test automation DRI:
+  - Is a required approver for any new rule.
+  - Is responsible for seeking manager approval for significant linting changes, such as *new* linting tools, scripts, pipeline jobs, and so on.
+  - Is a recommended reviewer for new or changed regex in rules.
+  - Maintains a board for `~tw-testing`, triages issues, and helps ensure issues/MRs move to resolution.
+  - Raises process/policy improvements for review by the TW leadership team.
+- The Vale DRI:
+  - Is a required approver for any new Vale rule (new Vale YAML files).
+- One additional member.
+- Any member must review or approve a change/addition to a rule.
+- No pre-set term limits. Members of the TW team can discuss potential changes and TW management can implement changes.
+- All committee members:
+  - Can author, review, and approve changes to existing rules.
+  - Can merge changes to existing rules that have proper approvals.
+
+For current membership, see [Assignments to other projects and subjects](#assignments-to-other-projects-and-subjects).
+
+### Collaboration
+
+[Collaboration](https://gitlab.com/groups/gitlab-org/-/epics/779), including:
+
+- Working on documentation efforts with Product, Support, Marketing, Engineering, Community Marketing, other GitLab teams, and the wider GitLab community.
+- Ensuring that relevant documentation is easily accessible from within the product.
+- Acting as reviewers of the monthly [release post](../../handbook/marketing/blog/release-posts/).
+
+This work is sorted into the [top-level Documentation epics](https://gitlab.com/groups/gitlab-org/-/roadmap?label_name%5B%5D=Documentation&label_name%5B%5D=epic-level-1&scope=all&sort=created_asc&state=opened&utf8=%E2%9C%93)
+linked above.
+
+### Assignments
+
+Technical Writers (TWs) are assigned to and collaborate
+with other teams and groups as described on the [DevOps stages](#designated-technical-writers),
+[Development Guidelines](#assignments-to-development-guidelines), and
+[other subjects](#assignments-to-other-projects-and-subjects) sections below.
+
+#### Assignments to DevOps Stages and Groups
+{: #designated-technical-writers}
+
+The designated Technical Writer is the go-to person for their assigned
+[stage groups](/handbook/product/categories/). They collaborate with other team members to plan new
+documentation, edit existing documentation, review any proposed changes
+to documentation, suggest changes to the microcopy exposed to users,
+and generally partner with subject matter experts (SMEs) in all situations where
+documentation is required.
+
+The backup writer is assigned to cover merge request reviews and
+urgent matters for the designated tech writer when they are out
+(vacations, sickness, and any other temporary leave). They can
+also naturally pair to work together on complex issues when needed.
+
+Not sure what group a feature falls into? Search the [product categories](/handbook/product/categories/).
+{: .alert .alert-info}
+
+<%= partial("includes/stages/tech-writing") %>
+
+<!--
+  To update the table above:
+
+  - For tech writer's name per stage, change data/stages.yml and includes/stages/tech-writing.html.haml
+  - To turn off a stage, set tw: false in data/stages.yml
+
+Reference: https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/24952
+-->
+
+Technical Writers are encouraged to review and improve documentation of other
+stages but they aren't required to. When contributing to docs they don't own,
+they must respect the assigned TW's ownership and ensure to request their review
+and approval when adding significant changes to their docs.
+
+#### Assignments to other projects and subjects
+
+For collaboration in other projects and subjects:
+
+| Subject | Assigned Technical Writer/DRI | Backup/Team members |
+|---|---|---|
+| [Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/) _(a subset of the [Development Guidelines](#assignments-to-development-guidelines)_ | [Craig Norris] | |
+| [Documentation handbook](/handbook/documentation/) | [Craig Norris] | |
+| [Technical Writing handbook](/handbook/engineering/ux/technical-writing/) | [Susan Tacker] | [Craig Norris] |
+| Development guidelines _(see the [section](#assignments-to-development-guidelines) below)_ | [Marcia Ramos] | [Mike Jang] |
+| [Style Guide group](#style-guide-group) | [Craig Norris] | [Marcia Ramos], [Suzanne Selhorn] |
+| [Test Automation Committee](#test-automation-committee) | [Marcel Amirault] | [Evan Read] |
+| [Test Automation Committee](#test-automation-committee) (Vale) | [Amy Qualls] | [Evan Read] |
+| [Subscriptions](https://docs.gitlab.com/ee/subscriptions/) | TBA | TBA |
+| [GitLab Docs](https://gitlab.com/gitlab-org/gitlab-docs) | [SSE Team](/handbook/engineering/development/dev/create-static-site-editor/) | --- |
+| [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit/) | [Evan Read] | TBA |
+| [GitLab Pages Daemon](https://gitlab.com/gitlab-org/gitlab-pages)| TBA| TBA |
+| [GitLab Pages Examples](https://gitlab.com/pages) | [Axil] | TBA |
+
+[Amy Qualls]: https://gitlab.com/aqualls
+[Axil]: https://gitlab.com/axil
+[Craig Norris]: https://gitlab.com/cnorris
+[Evan Read]: https://gitlab.com/eread
+[Marcel Amirault]: https://gitlab.com/marcel.amirault
+[Marcia Ramos]: https://gitlab.com/marcia
+[Marcin Sędłak-Jakubowski]: https://gitlab.com/msedlakjakubowski
+[Marcin Sedlak-Jakubowski]: https://gitlab.com/msedlakjakubowski
+[Mike Jang]: https://gitlab.com/mjang1
+[Nick Gaskill]: https://gitlab.com/ngaskill
+[Russell Dickenson]: https://gitlab.com/rdickenson
+[Susan Tacker]: https://gitlab.com/susantacker
+[Suzanne Selhorn]: https://gitlab.com/sselhorn
+
+#### Assignments to Development and API Guidelines
+
+For content changes specifically related to a particular stage group, the TW assigned to that
+group can perform the review and then assign the MR to the TW assigned Dev Guidelines for
+approval/merge.
+
+##### Development Guidelines
+
+The Technical Writer (TW) assigned to Development Guidelines (SME) is [Marcia Ramos]
+and her backup TW is [Mike Jang].
+As GitLab grows, it's important to keep high-quality documentation and ensure that the
+guidelines for contributors are consistent and aligned throughout the organization.
+Development Guidelines consist of:
+
+- GitLab's [Development Guidelines](https://docs.gitlab.com/ee/development/):
+  the entire content of [`gitlab/doc/development/*`](https://gitlab.com/gitlab-org/gitlab/-/tree/master/doc%2Fdevelopment) must be reviewed and approved by the TW assigned to Dev Guidelines, with the exception of the [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide.html) which is maintained by the [Techncial Writing Style Guide group](#style-guide-group).
+- [GitLab Design System ("Pajamas")](https://design.gitlab.com/): the entire content of
+  [`contents`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/master/contents)
+  must be reviewed and approved by the TW assigned to Dev Guidelines.
+- [GitLab UI](https://gitlab.com/gitlab-org/gitlab-ui/): docs within this project do not require
+  TW review. The TW for Dev Guidelines will help in creating and maintaining minimum requirements
+  for these docs through specific guidelines and templates, and assist the team upon request.
+
+For Development Guidelines that may be established in other projects, the assigned TW will
+help upon request. If a larger project is created with ongoing development, the TW for Dev Guidelines
+and TW Manager will evaluate with the engineers the necessity of regular reviews.
+
+<!-- References:
+
+- All Dev Guidelines: https://gitlab.com/gitlab-org/technical-writing/issues/108
+- Pajamas: https://gitlab.com/gitlab-org/technical-writing/issues/93
+- GitLab UI: https://gitlab.com/gitlab-org/gitlab-ui/issues/598, https://gitlab.com/gitlab-org/gitlab-ui/issues/624
+
+ -->
+##### API Guidelines
+
+The Technical Writers (TW) assigned to API Development Guidelines are [Axil] and [Mike Jang].
+These guidelines include patterns and templates required to set up GraphQL and REST (OpenAPI) documentation.
+
+For content changes specifically related to a particular stage group, the TW assigned to that
+group is responsible for that content.
+
+#### Backup Technical Writers
+
+Each Technical Writer has an assigned *backup Technical Writer* that’s listed in
+the [DevOps Stages and Groups assignment table](#assignments).
+
+Although the usual role of a backup Technical Writer is to provide coverage for
+primary writers who may be out of the office, the backup can also be a resource for
+a stage/group's normal Technical Writer. For example, depending on their
+bandwidth, the backup may be able to help with coverage if the primary Technical
+Writer gets too busy (for example, if the primary writer also has
+[release post duty](/handbook/marketing/blog/release-posts/managers/)).
+
+Technical Writers should ensure that their out-of-office messaging reflects
+their backup, and should communicate with their PMs and developers to introduce
+their backup Technical Writer.
+
+Whenever you’re communicating with a backup Technical Writer to ask for an
+issue's status or their assistance with a technical writing issue, please be
+aware that they may require additional context, and that your request will need
+to be incorporated into the list of stage/group and feature priorities for
+*their* primary responsibility.
+
+If neither the primary or backup Technical Writer are available to help, you can
+post in the [#docs](https://gitlab.slack.com/archives/C16HYA2P5) channel to
+ask for general assistance for your issue.
+
+#### Regularly scheduled tasks
+
+Along with Technical Writers' normally assigned work, there are recurring tasks
+that need to be regularly completed:
+
+- *Release Post TW Lead:* A Technical Writer
+  [reviews the content](/handbook/marketing/blog/release-posts/#tw-lead)
+  for the release post published at the end of each milestone. See the
+  [Release Post Scheduling](/handbook/marketing/blog/release-posts/managers/)
+  Handbook page for the most updated list of each milestone's assigned writer.
+- *Docs project logs checks:* The docs project has jobs in the
+  [CI/CD pipeline logs](https://gitlab.com/gitlab-org/gitlab-docs/-/pipelines)
+  that report fixable issues. These jobs are allowed to silently fail to
+  avoid having minor failures prevent the site's deployment. The Technical
+  Writer with this task should check the following logs regularly, and if
+  needed, create MRs to fix reported failures or create issues for significant
+  reported problems:
+
+  - External Link Checker log: Over time, links in [GitLab's documentation](https://docs.gitlab.com)
+    to external sites can change without warning. To identify these now-outdated
+    links, run the `test_external_links` manual job in the most recently run
+    [Scheduled pipeline](https://gitlab.com/gitlab-org/gitlab-docs/-/pipelines).
+  - Kramdown build logs: Some Markdown formatting issues that can cause
+    rendering problems aren't detected by regular linting, but are flagged by
+    Kramdown when building the site. On the
+    [docs project pipelines](https://gitlab.com/gitlab-org/gitlab-docs/-/pipelines)
+    page, click the pipeline you want to examine, and in its **Jobs** tab, click
+    the job link for `compile_prod` or `compile_dev`. In the provided job log,
+    search for `kramdown warning` messages, which are usually caused by
+    problematic HTML or square brackets.
+  - Trailing white space test: To reduce the burden of contributing
+    documentation to GitLab, we don't block the addition of trailing whitespace
+    in Markdown files. To avoid building up a large amount of technical debt,
+    run the **test_EOL_whitespace** manual job in the most recently run
+    [scheduled pipeline](https://gitlab.com/gitlab-org/gitlab-docs/-/pipelines).
+
+Current schedule of regular Technical Writing team tasks:
+
+| Month    | Release Post                      | Log checks                 |
+|----------|-----------------------------------|----------------------------|
+| Jan 2020 | 12.7 - [Marcia Ramos]             | n/a                        |
+| Feb 2020 | 12.8 - [Marcin Sędłak-Jakubowski] | n/a                        |
+| Mar 2020 | 12.9 - [Axil]                     | n/a                        |
+| Apr 2020 | 12.10 - [Russell Dickenson]       | n/a                        |
+| May 2020 | 13.0 - [Mike Jang]                | n/a                        |
+| Jun 2020 | 13.1 - [Amy Qualls]               | n/a                        |
+| Jul 2020 | 13.2 - [Suzanne Selhorn]          | n/a                        |
+| Aug 2020 | 13.3 - [Nick Gaskill]             | [Marcin Sędłak-Jakubowski] |
+| Sep 2020 | 13.4 - [Marcel Amirault]          | [Axil]                     |
+| Oct 2020 | 13.5 - [Evan Read]                | [Russell Dickenson]        |
+| Nov 2020 | 13.6 - [Marcia Ramos]             | [Mike Jang]                |
+| Dec 2020 | 13.7 - [Marcin Sędłak-Jakubowski] | [Amy Qualls]               |
+
+**Note:** Be sure to keep the Release Post column in sync with the
+[Release Post Scheduling](/handbook/marketing/blog/release-posts/managers/)
+page.
+
+### Onboarding Technical Writers
+
+While the Technical Writer is onboarding, they will be assigned to
+shadow groups and then start contributing as trainees, as described
+below. Veteran Technical Writers will coach them through the process.
+
+To consult the current assignments, see the [onboarding Technical Writers spreadsheet](https://docs.google.com/spreadsheets/d/17KULdrZZpUPFMp-vYhw3fErlit9oD99Yh6L60aMsiyc/edit#gid=0).
+
+**Group shadowing**
+
+For the first release cycle that begins after the new member start
+date, they will shadow (read) their buddy's work in their most active
+Stage Group, plus one other stage group/writer decided with the
+tech writing manager and the team. Veteran Technical Writers will
+proactively share relevant issues, merge requests, and communications
+with their shadows by using a `#tw-onboarding-<groupname>`
+Slack channel, creating it if it doesn't already exist, and answering questions.
+
+**Group trainees**
+
+For the second release cycle that begins after the new member's start
+date, unless the tech writing manager extends the shadowing phase,
+they will act as a trainee on one or more groups as assigned by the manager.
+The intent is to take on the group as its Technical Writer as of the
+next release. The veteran Technical Writer who is assigned to that Group
+will assign substantial parts of the work to the new member for this group,
+which accounts to roughly half of the groups's reviews of MRs with docs, UI text,
+and release post content; a small but substantial documentation
+authoring project; a few minor doc improvement projects/fixes.
+
+**Group coaching**
+
+For the third release cycle, the onboarding tech writer assumes the
+full role of Technical Writer for their assigned group, except that
+they will not yet have [merge rights](#merge-rights). The former TW assigned to the group is now the coach,
+who will review all their work (including reviews they perform of other authors)
+before merging it or approving it for another maintainer to merge.
+They may share the burden of these reviews with other Technical Writers.
+
+### Reviews
+
+Technical Writers are assigned merge requests to review that contain documentation changes
+authored by GitLab team members and community contributors.
+The reviews are assigned by subject matter according to the [Technical Writer assignments](#assignments)
+to [stage groups](../../product/product-categories/#devops-stages) or other specialties.
+
+#### Review principles
+
+The following principles guide Technical Writers when conducting technical writing reviews:
+
+- A technical writing review aims to confirm that the content:
+  - Is clear, grammatically correct, discoverable, navigable, and written with the perspective of the user (or other intended audience) in mind.
+  - Follows the [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide.html).
+    and Pajamas Design System content guidance on:
+    - [Voice and tone](https://design.gitlab.com/content/voice-tone).
+    - [Terminology](https://design.gitlab.com/content/terminology).
+    - [Punctuation](https://design.gitlab.com/content/punctuation).
+  - Avoids redundancy, bad file locations, typos, and broken links.
+- While Technical Writers apply any subject-matter expertise they possess, a technical writing
+  review focuses on tone, style, and narrative flow.
+- A technical writing review confirms that an authoritative source has checked for technical accuracy.
+  The Technical Writer may serve as that authoritative source if they have the required knowledge or
+  can efficiently perform any necessary verification.
+- Because every writer can benefit from an editorial review, all significant changes to content
+  submitted by Technical Writers should go to another Technical Writer for review before merge.
+  Because [velocity](/handbook/engineering/#the-importance-of-velocity) is important, Technical
+  Writers can request a post-merge review from another Technical Writer in exceptional circumstances.
+
+### Merge rights
+
+The Technical Writing team is given merge rights (through
+[Maintainer access](/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer))
+to GitLab projects as part of their role. Not all developers get Maintainer access. Technical
+writers should use this privilege responsibly.
+
+As Maintainers, Technical Writers should limit what they merge to:
+
+- Documentation, typically in Markdown-formatted files.
+- UI text, error messages, and link-related fixes, with the approvals of appropriate engineer(s).
+- Documentation-related tooling and configuration such as linters, and changes
+  to the [`gitlab-docs`](https://gitlab.com/gitlab-org/gitlab-docs) project. Engineers in the
+  [Static Site Editor team](/handbook/engineering/development/dev/create-static-site-editor/) are
+  available for code review and merges.
+
+In addition, Technical Writers should:
+
+- Never merge an MR with a failed pipeline, unless the failures are unrelated to the changes. If in
+  doubt, ask an engineer.
+- Ensure that MRs are complete before merging, with appropriate labels and milestones.
+- Ensure that the DRI or nominated backup (for [the stage](#assignments) or
+  [other documentation](https://gitlab.com/gitlab-org/technical-writing/-/issues/123)) has reviewed
+  and approved the MR.
+
+## Documentation process
+
+See:
+
+- [Technical writing workflow](workflow/) in the handbook.
+- [Documentation workflows](https://docs.gitlab.com/ee/development/documentation/workflow.html) in the contributor documentation.

@@ -1,0 +1,263 @@
+---
+layout: handbook-page-toc
+title: "CI/CD UX"
+---
+
+## On this page
+{:.no_toc .hidden-md .hidden-lg}
+
+- TOC
+{:toc .hidden-md .hidden-lg}
+
+### Overview
+
+As of March 2020, GitLab combined the Ops and CI/CD sections into a new [Ops section](/direction/ops/) that comprises the [Verify](/direction/ops/#verify), [Package](/direction/ops/#package), [Release](/direction/ops/#release), [Configure](/direction/configure) and [Monitor](/direction/monitor) stages of the [DevOps lifecycle](/stages-devops-lifecycle/). 
+
+CI/CD UX team covers [Verify](/direction/ops/#verify), [Package](/direction/ops/#package) and [Release](/direction/ops/#release) stage groups and is working to ensure the best user experience for our users of all knowledge levels to successfully apply the continuous methods (Continuous Integration, Delivery, and Deployment) to their software with no third-party application or integration needed.
+
+Our design mission is to bring simple, clean ways to make GitLab the tool of choice for deploying where, when, and how users want.
+
+### Team
+
+See all [CI/CD UX team members](https://about.gitlab.com/company/team/?department=ci-cd-ux-team) and open vacancies.
+
+### Our strategy
+
+Our strategy is all about making sure that even complex delivery flows become an effortless part of everyone's primary way of working. We work closely with Engineering, Product Management, User Research, Technical Writing, and Product Marketing to make sure we have all the support in uncovering user needs and work to solve them together.
+
+| Strategy | Goal |
+| ------ | ------ |
+| Jobs to be done framework | Work with our PMs to identify the top tasks (in frequency or importance) for our users, based on user research (analytics or qualitative findings). By analyzing how they change depending on factors such as size of company, roles and responsibilities, and personas, we can evaluate their experience trhough an UX Scorecard. |
+| [UX Scorecards and recommendations](/handbook/engineering/ux/ux-scorecards/) | Creating an UX Scorecards with associated Recommendations enables us to identify our user's workflows, as well as understand different types of workflows from existing, new, and/or non-users, scope and track the efforts of addressing usability concerns for these workflows, explore specific situational problems we are look to solve now and in future iterations. When a scorecard is complete, we have the information required to collaborate with PMs on grouping fixes into meaningful iterations and prioritizing UX-related issues. |
+| [Opportunity canvas](/handbook/product-development-flow/#opportunity-canvas) |  Collaborate with PM during the validation track build a document to understand the user pain, the business value, and the constraints to a particular problem statement. |
+| Stakeholder interviews | Serve as a quick and comprehensive way of taking inventory of our current challenges across the Release stage. The analysis of these will then allow us to understand what user data we should be looking for in order to support the team in addressing those challenges. |
+| User and customer interviews |  Gather external understanding from GitLab users and non-users. We use feedback from interviews to inform our personas, understand and develop objectives and goals for features. |
+
+Visit [Ops Product Section Direction](https://about.gitlab.com/direction/ops/) to read about the product strategy.
+
+#### Our strategic counterparts
+
+We have business goals we are shooting for all the time. To understand how we can measure success in the CI/CD area, we collect insights from our strategic counterparts: [Product Marketing Managers](/handbook/marketing/product-marketing/pmmteam/), [Analyst Relations](/handbook/marketing/product-marketing/analyst-relations/), and [Customer Success](/handbook/customer-success/).
+
+<table>
+  <tr>
+    <th>Stage group</th>
+    <th>PMM (Product Marketing Manager)</th>
+    <th>AR (Analyst Relations)</th>
+    <th>CS (Customer Success)</th>
+  </tr>
+  <tr>
+    <td>
+      Verify:Continuous Integration
+    </td>
+    <td>
+      <%= team_links_from_group(group: 'Continuous Integration Group pmm') %>
+    </td>
+    <td>
+      <%= team_links_from_group(group: 'Ops Section AR Stable Counterpart') %>
+    </td>
+    <td>
+      <%= team_links_from_group(group: 'Continuous Integration Group CS Stable Counterpart') %>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Verify:Runner
+    </td>
+    <td>
+      <%= team_links_from_group(group: 'Runner Group pmm') %>
+    </td>
+    <td>
+      <%= team_links_from_group(group: 'Ops Section AR Stable Counterpart') %>
+    </td>
+    <td>
+      <%= team_links_from_group(group: 'Runner Group CS Stable Counterpart') %>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Verify:Testing
+    </td>
+    <td>
+      <%= team_links_from_group(group: 'Testing Group pmm') %>
+    </td>
+    <td>
+      <%= team_links_from_group(group: 'Ops Section AR Stable Counterpart') %>
+    </td>
+    <td>
+      <%= team_links_from_group(group: 'Testing Group CS Stable Counterpart') %>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Package
+    </td>
+    <td>
+      <%= team_links_from_group(group: 'Package Group pmm') %>
+    </td>
+    <td>
+      <%= team_links_from_group(group: 'Ops Section AR Stable Counterpart') %>
+    </td>
+    <td>
+      <%= team_links_from_group(group: 'Package Group CS Stable Counterpart') %>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Release:Progressive Delivery
+    </td>
+    <td>
+      <%= team_links_from_group(group: 'Progressive Delivery Group pmm') %>
+    </td>
+    <td>
+      <%= team_links_from_group(group: 'Ops Section AR Stable Counterpart') %>
+    </td>
+    <td>
+      <%= team_links_from_group(group: 'Progressive Delivery Group CS Stable Counterpart') %>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Release:Release Management
+    </td>
+    <td>
+      <%= team_links_from_group(group: 'Release Management Group pmm') %>
+    </td>
+   <td>
+      <%= team_links_from_group(group: 'Ops Section AR Stable Counterpart') %>
+    </td>
+    <td>
+      <%= team_links_from_group(group: 'Release Management Group CS Stable Counterpart') %>
+    </td>
+  </tr>
+</table>
+
+### Customer
+
+Our solutions are meant to help organisations scale efficiently and effectively by automating software delivery processes and orchestrating deployments to go production at a low cost. We are focusing on these [roles and personas](/handbook/marketing/product-marketing/roles-personas/#user-personas) to create the best user experience possible.
+
+### UX pages
+
+* [Verify UX](/handbook/engineering/ux/stage-group-ux-strategy/verify/)
+* [Release UX](/handbook/engineering/ux/stage-group-ux-strategy/release/)
+* Package UX - to be added soon
+
+### How we work
+
+#### Quarterly OKRs
+
+[OKRs](https://en.wikipedia.org/wiki/OKR) stand for Objectives and Key Results and we manage them as quarterly goals. They lay out our plan to execute our strategy and help make sure our goals and how to achieve them are clearly defined and aligned throughout the organization.
+
+Learn more about [CI/CD UX Team OKRs](https://gitlab.com/gitlab-org/gitlab-design/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=UX%20CICD%20Team&label_name[]=OKR).
+
+#### Definition of Done for UX (pilot)
+
+A Definition of Done serves as a tool for describing and tracking the expected deliverables, objectives, and the approval process. 
+We use the Definition of Done (DoD) for UX to align and track the entry and exit criteria for design work. 
+
+Below you can find a generic list of criteria which must be met for a user story to be considered “done”. The final list applied by the Product Designer and Product Manager to issues or epics should be flexible, making this process [efficient for their ways of working](/handbook/values/#efficiency-for-the-right-group).
+
+##### Template for UX DoD
+
+```
+##### Entry Criteria for "workflow::design"
+
+- [ ] Problem is well understood and has gone though the "workflow::problem validation", if necessary
+- [ ] Issue has a clear problem background (why it is prioritised) description
+- [ ] User stories and acceptance criteria have been created
+- [ ] Edge cases were considered and described by PM and Product Designer
+- [ ] ~"UX" label is added to the issue
+
+##### Criteria for UX DoD (exit criteria for "workflow::design")
+
+- [ ] Cross-team dependencies have been identified and documented, if applicable
+- [ ] Incremental design approach was applied to split the design problem into small problems and deliverables (UX to work with Engineering)
+- [ ] Prototypes for each user story have been created
+  - [ ] Empty state
+  - [ ] Responsiveness
+  - [ ] Edge cases
+- [ ] Design proposal was ran and is aligned with engineering team to avoid not feasible solutions and ensure the iteration in our development process
+- [ ] If changes involve copy, ~"UI text" label has been added
+- [ ] Pajamas: component creation or update have been identified
+  - [ ] Pajamas issue is created
+- [ ] Marked as ready for engineering evaluation per user story moved into "workflow::planning breakdown" & "needs weight"
+
+##### Entry Criteria for "workflow::ready for development"
+
+- [ ] Scope has successfully exited "workflow::planning breakdown" 
+- [ ] User stories have been weighed and broken down into feasible iterations (smaller solutions)
+- [ ] Create new issues for follow up user stories
+
+##### UX Weighting (optional)
+
+UX weighting is an optional process and should be applied accordingly to team needs.
+
+We add the weight to UX issues using the [storypoints system](https://www.nngroup.com/articles/ux-user-stories/):
+
+|  | S | M | L | XL | XXL (subject for breaking down) | XXXL (subject for breaking down) |
+| ------ | ------ | 
+| Points | 1 | 2 | 3 | 5 | 8 | 13 |
+```
+
+#### User research
+
+Our goal is to stay connected with GitLab users all around the world and gather insight into their behaviors, motivations, and goals when using GitLab.
+
+* [Verify UX research insights](https://gitlab.com/gitlab-org/uxr_insights/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=devops%3A%3Averify)
+* [Release UX research insights](https://gitlab.com/gitlab-org/uxr_insights/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=devops%3A%3Arelease)
+* [Package UX research insights](https://gitlab.com/gitlab-org/uxr_insights/-/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=group%3A%3Apackage)
+
+Read more about how we do [UX Research at GitLab](/handbook/engineering/ux/ux-research/).
+
+#### Customer journeys
+
+We see customer journeys as stories about understanding our users, how they behave, and what we can do to improve their trip. We use [UX Scorecards](/handbook/engineering/ux/ux-scorecards/) to perform this analysis and evaluate user experience.
+
+See all [CI/CD UX Scorecards](https://gitlab.com/gitlab-org/gitlab/issues/197959).
+
+#### Understanding business objectives
+
+We work closely with Product Management to understand business goals by collaboratively answering product foundational questions:
+
+* [Release Product Foundations Document](https://gitlab.com/gitlab-org/gitlab-design/issues/392) (ongoing)
+* [Verify Product Foundations Document](https://gitlab.com/gitlab-org/gitlab-design/issues/334) (ongoing)
+
+### Our team rituals
+
+#### A-sync Design Review (weekly)
+
+The goals of the a-sync Design Review ritual are to showcase the work that every Product Designer in our team performs and collect feedback and ideas from other team members. This session provides a platform to identify dependencies between design work in all UX department. 
+
+We opt for as-sync design reviews to be more inclusive for designers in different time zones and to support the [GitLab values](/handbook/values/).
+
+##### How to participate in A-sync Design Review
+
+- Select a project or prepare a question you would like to get feedback on from other Product Designers
+- Record a short storytelling talk (not more than 5 minutes) using [Loom](https://www.loom.com/) (or other video recording software)
+- Don't spend time on preparation - just walk through the work you are doing and record:
+  - Start with giving a bit of history that can be helpful to understand the story better
+  - Share what problem are you solving and why you are solving it
+  - Name the question you are willing to get answers on
+- Post your video 'ux-coworking' Slack channel and copy the message to the original feature issue (people will leave their feedback in the thread under this video later)
+- Tag any specific Product Designers you think your work may relate too, or make it open for input from all UX department
+- When posting your video recording to the 'ux-coworking' Slack channel - make sure to add the link to the issue where you have created a thread under your video recording. This should guide people on where to leave their feedback.
+
+* See the [pilot issue](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1310)
+
+#### CI/CD UX Team Meeting (bi-weekly)
+
+We meet bi-weekly as a team to discuss our work, processes, talk about User Research activities, share knowledge, and raise questions to each other. We are also using session for team retrospectives, as well as sharing useful resources around design and DevOps domains.
+
+* Watch the [CI/CD UX Team Meeting videos](https://www.youtube.com/playlist?list=PL05JrBw4t0KqkrzZyJrJSEWNyiL_5x7an) on YouTube Unfiltered
+
+#### Milestone Kick-off (monthly)
+
+The CI/CD UX team participates in a [milestone kickoff](/handbook/engineering/ux/ux-department-workflow/#milestone-kickoff) together with Product Management. The goal of this ritual is to record a video explaining the work in the upcoming milestone. Usually, the Product Designer will focus on telling the story around user experience, front-end (user interface design) and User Research issues, and the Product Manager will explain the rest of the features.
+
+* See the [Milestone Kickoff Playlists](/direction/kickoff/#ops-section)
+
+#### Ops Cross-Stage ThinkBIG! (monthly)
+
+The purpose of Ops Cross-Stage ThinkBIG! meeting is to discuss the vision, product roadmap, user research, and design work related to the Cross-Stage Ops experience at GitLab.
+
+* Watch the [Ops Cross-Stage ThinkBIG! videos](https://www.youtube.com/playlist?list=PL05JrBw4t0KqFdx966BWkg9-RwXyBDq1k) on YouTube Unfiltered

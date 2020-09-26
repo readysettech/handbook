@@ -1,0 +1,204 @@
+---
+layout: handbook-page-toc
+title: "Code Contributor Program"
+---
+
+## On this page
+{:.no_toc .hidden-md .hidden-lg}
+
+- TOC
+{:toc .hidden-md .hidden-lg}
+
+## Overview
+
+From the beginning, GitLab has been an open source project and we want to continue growing community code contribution. This will be accomplished by lowering the barrier to entry for new contributors and also by helping casual contributors become regular contributors. We want GitLab to be the open source project of choice for open source developers.
+
+## Communication/collaboration with contributors
+
+### Contributor channel
+
+A GitLab contributor room is available on [Gitter](https://gitter.im/gitlabhq/contributors) for people interested in contributing to GitLab. This is open to everyone to join and is a good place for community members to network and help each other. There is also a [Sameroom](https://sameroom.io/) tunnel betweeen the Gitter contributor room and the `#gitter-contributors-room` channel in GitLab Slack so the GitLab team members can follow Gitter conversations and post to Gitter without leaving Slack.
+
+### Hackathons
+
+There will be a quarterly [Hackathon](/community/hackathon/) for GitLab community members to come together to work on merge requests, participate in tutorial sessions, and support each other on the [GitLab contributors channel](https://gitter.im/gitlabhq/contributors).  Agenda, logistics, materials, recordings, and other information for Hackathons will be available on the [Hackathon project pages](https://gitlab.com/gitlab-com/marketing/community-relations/contributor-program/gitlab-hackathon).
+
+The event planning will be done following the [Hackathon issue template](https://gitlab.com/gitlab-com/marketing/community-relations/contributor-program/hackathon/issues/new?issuable_template=hackathon%20event%20plan) in the [GitLab Hackathon project](https://gitlab.com/gitlab-com/marketing/community-relations/contributor-program/hackathon).
+
+#### Virtual hackathons/hackathon-in-a-box
+
+We also encourage wider community members to organize events to encourage and support new contributors to GitLab. This could be done as a part of in-person or virtual [GitLab meetups](/handbook/marketing/community-relations/evangelist-program/#meetups).
+
+If wider community members are interested in including a hackathon as a part of a meetup, ask them to include this information when they open a [meetup issue](https://gitlab.com/gitlab-com/marketing/community-relations/evangelist-program/general/issues/new?issuable_template=meetup-organizer). The code contributor program manager will get in touch with the organizer and provide the necessary resources to support the event.
+
+Some of the available resources can be found in the [hackathon-in-a-box folder](https://drive.google.com/drive/u/0/folders/1YWb16NAguXq9T5kORhNcXOk3JwdaS4NF), [GDK tutorials playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KofEeWa9EXUOS8kJHOjIH_W), etc. The program manager should also work with the organizer to create a list of issues that are good for first-time/inexperienced contributors and share the list with participants prior to the event. There should also be coordination with the organizer on GitLab merchandise that can be distributed to anyone who creates a Merge Request during the event.
+
+### Community office hours
+
+To facilitate communication between the wider community and GitLab team members, product teams may host community office hours. The purpose of these office hours is to gather wider community feedback on product/development, discuss wider community contributions, review MR backlog, and other topics. Office hour related issues or MRs will have the label `Office Hours` as you can see in [these examples](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=Office%20Hours).
+
+Calls will be open to everyone and recordings will be posted after the call. See examples of past office hours from [this playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrXZEInAfyddFlalvwaxL-I). To make it easier for the community to find the videos, each stage should create their own office hours playlist and link to it from their handbook page.
+
+There is a public [Community Office Hours calendar](https://calendar.google.com/calendar?cid=Y191c2MyNGJ0MHNvZ3Q0N2FoMDJxMHFkNDhra0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) that you can use to schedule your team's events.
+
+### Community challenge
+
+To encourage contribution to priority issues on an on-going basis (and not just during Hackathons), we will maintain a list of up to 5 priority issues for each [product stage](/handbook/product/categories) and prizes will be given to wider community members who have MRs merged for these issues. These issues will have the label `Community challenge` and more details such as prizes, assignment of these issues, etc. can be found [here](/community/hackathon/#community-challenge).
+
+### Issues for new contributors
+
+To highlight issues that would be good for new contributors, you can add a [label `good for new contributors`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=good+for+new+contributors). It is strongly recommended that these issues  have mentor(s) listed so that the new contributor knows who they can get help from while they work on the issue.
+
+## Supporting the contributor community
+
+### Triaging community MR's
+The [GitLab Bot](https://gitlab.com/gitlab-bot) automatically adds [contribution labels](#contribution-labels) to merge requests submitted by wider community members, once a day (Monday-Friday).
+
+If you subscribe to any of those labels, you will also receive an email notification from the `GitLab Bot`. It's helpful to review these MRs to do some quick triaging to manually apply appropriate labels (e.g. corresponding devops stage) and mention GitLab team-members (e.g. product managers, engineering managers, technical writers for documentation, etc. ) so that the community MRs can be reviewed in a timely manner. You can refer to the [product team handbook](/handbook/product/product-categories/#dev-department) for the list of people you can mention in  merge requests for each product area.
+
+#### Contribution labels
+
+- `~"Community contribution"`: the main label to monitor for the Contributor Program. Also one of the [throughput labels](/handbook/engineering/management/throughput/#implementation). Automatically applied by the [GitLab Bot](https://gitlab.com/gitlab-bot) to MRs submitted by wider community members. It is added to [GitLab projects](https://gitlab.com/groups/gitlab-org/-/merge_requests?label_name[]=Community+contribution) and to the [GitLab website (including the handbook)](https://gitlab.com/groups/gitlab-com/-/merge_requests?label_name[]=Community+contribution). If you work with contributors, it is recommended that you subscribe to this label to receive e-mail notifications and thus be able to respond to those MRs in a timely manner. Remember to thank individuals for their contributions.
+- `1st contribution`: this label is used to identify, thank and reward first-time contributors. It is manually applied to the first MR each wider community member submits to a particular project. It is added to [GitLab projects](https://gitlab.com/groups/gitlab-org/-/merge_requests?label_name%5B%5D=1st+contribution) and to the [GitLab website (including the handbook)](https://gitlab.com/groups/gitlab-com/-/merge_requests?label_name%5B%5D=1st+contribution). [First-time contributors](#first-time-contributors) are also awarded a gift as our way to say thanks and as a recognition for their work. Note: there are [multiple open issues related to automating the addition of this label](https://gitlab.com/gitlab-org/gitlab/issues/23265).
+
+### Merge Request Coaches
+[Merge Request Coaches](/job-families/expert/merge-request-coach/) are available to help contributors with their MRs. This includes identifying reviewers for the MR, answering questions from contributors, educating contributors on the [contribution acceptance criteria](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#contribution-acceptance-criteria), or even completing the MR if the contributor is unresponsive or unable to complete it by adding the `coach will finish` label and creating a follow-up MR. Contributors can mention the coaches in their MRs by typing `@gitlab-org/coaches`.
+
+Merge Request Coaches can be found on the [team page](/company/team/) by selecting `Merge Request coach` in the department filter.  There is also the `#mr-coaching` channel in GitLab Slack if GitLab team members have any questions related to community contributions.
+
+More information on Merge Request Coaches (including how to become a Merge Request Coach) can be found in the [MR coach lifecycle page](/handbook/marketing/community-relations/code-contributor-program/resources/merge-request-coach-lifecycle.html).
+
+### Reaching out to new contributors
+After the first merged MR, reach out to new contributors using the [outreach email template](/handbook/marketing/community-relations/code-contributor-program/templates/email-templates.html) to congratulate them on the first MR and offer a GitLab merchandise. In cases where it would be beneficial for new contributors to be paired up with an experienced mentor, you can make an offer for a mentor for a limited time period (~2 weeks) so that mentors are not overly burdened. Currently, mentors consist primarily of [Core Team members](/core-team/).
+
+#### First-time contributors
+The first-time contributors can be identified after each release in the [First time contributors MRs dashboard](https://gitlab.biterg.io/app/kibana#/dashboard/df97f810-f397-11e8-8fe1-b354a33b38be).
+
+### Working with the Core Team
+More information on the [Core Team](/community/core-team/) is available in the [Core Team handbook page](/handbook/marketing/community-relations/code-contributor-program/core-team/).
+
+### For contributors to the GitLab Enterprise Edition (EE)
+
+In order for community contributors to contribute to the [GitLab Enterprise Edition](https://gitlab.com/gitlab-org/gitlab-ee), they will need a license for EE.  If they don't already have a license, they can get a [free trial for 30 days](/free-trial/).  If the contributor is not able to complete their work in 30 days, issue a new EE license for a 3-month period for a limited number of users. If the contributor wants to continue contributing to EE beyond the 3 months (and there has been contributions during the 3-month period), we can renew the license for another 3-month period.
+
+In order to request license keys for EE, you will need to get permission to login to dev.gitlab.org by creating an [access request issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues). Details on requesting license keys can be found at [Working on GitLab EE](/handbook/developer-onboarding/#working-on-gitlab-ee) section of the developer onboarding handbook.
+
+### For contributors who run out of CI minutes
+
+Wider community members may run out monthly CI minutes as they are working on an MR. Community members can send a request to reset their CI minutes to `contributors@gitlab.com` in order to continue their work. After reviewing the request, a Community Relations team member will file an issue with the [GitLab.com Support Team](https://gitlab.com/gitlab-com/support/internal-requests/issues/new?issuable_template=pipeline_reset_request) using the `pipeline_reset_request` template. Information on the community member name, username, and link to the MR that requires additional CI minutes will need to be provided in the issue.
+
+### For contributors who max out on other CI/CD resources
+
+Wider community members under the Free tier on Gitlab.com may run into [GitLab CI/CD limits](https://docs.gitlab.com/ee/user/gitlab_com/index.html#gitlab-cicd) for max jobs or max pipeline schedules. Community members can send a request to get a temporaty Bronze license in order to continue their contributions to `contributors@gitlab.com`. After reviewing the request, a Community Relations team member will file a support issue for [`Plan Change Request`](https://gitlab.com/gitlab-com/support/internal-requests/issues/new?issuable_template=Plan%20Change%20Request). In the issue, information on GitLab username/name space (if it's a group), contact email, end date, link to MR(s) that require additional CI/CD resources, etc. should be included.
+
+### Contributor License Agreement (CLA) for contributions to GitLab Enterprise Edition (EE)
+Contribution to the [GitLab Enterprise Edition](https://gitlab.com/gitlab-org/gitlab-ee) requires accepting a [Contributor License Agreement(CLA)](https://gitlab.com/gitlab-org/gitlab-ee/blob/master/CONTRIBUTING.md#contributor-license-agreement). In order to make the process as developer-friendly as possible, we do not require any paperwork and consider the act of submitting code via Merge Request as an agreement to [individual](https://gitlab.com/gitlab-org/gitlab-ee/blob/1bfac68311180a201001f1cd0b66833910dd9684/doc/legal/individual_contributor_license_agreement.md) or [corporate](https://gitlab.com/gitlab-org/gitlab-ee/blob/1bfac68311180a201001f1cd0b66833910dd9684/doc/legal/corporate_contributor_license_agreement.md) CLAs.
+
+The CLA only applies to GitLab EE, while other GitLab projects will continue to be licensed under MIT and simply require signing off on the [Developer Certificate of Origin (DCO)](#developer-certificate-of-origin-dco).
+
+### Developer Certificate of Origin (DCO)
+
+Code contribution to GitLab projects with the exception of GitLab Enterprise Edition (EE) requires signing off on the [Developer Certificate of Origin (DCO)](https://gitlab.com/gitlab-org/dco/blob/master/README.md).
+
+In line with our value that [everyone can contribute](/company/strategy/#mission) to GitLab, we strive to make our process as developer-friendly and frictionless as possible. As such, we consider the act of contributing to the code by submitting a Merge Request as the "Sign off" or agreement to the certifications and terms of the DCO and MIT license. No further action is required.
+
+Check out this [issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/43293) for more details.
+
+### Community code of conduct
+
+Like most open source projects, the GitLab Community also has a [code of conduct](/community/contribute/code-of-conduct/) to foster an open and welcoming environment. Instances of abusive, harassive, or otherwise unacceptable behavior may be reported to `conduct@gitlab.com`.
+
+In case of a code of conduct violation, the following steps will be taken:
+
+1.  The offending community member will be reminded of the [code of conduct](/community/contribute/code-of-conduct/) and asked to be constructive and respectful. This will typically be a public communication, for example in an issue or a merge request.
+2.  If there is a repeated offense, the community member will be contacted privately (e.g. via email) and warned that any subsequent offenses will not be tolerated and will lead to the community member being blocked from GitLab.com.
+3.  After the third incident, ask the `@abuse-team` in the `#abuse` Slack channel to block the individual from GitLab.com.
+
+In general, it is best not to argue with someone who is not being constructive/respectful, and one should just focus on facts if you need to respond. If you need help with your response (including reviewing a draft of your response), you can ask in the `#community-relations` channel in Slack or email `conduct@gitlab.com`.
+
+## Community outreach
+
+### Contributor blog post series
+
+Goal is to publish a regular blog post featuring contributors from the community.  The format will be a [casual Q&A with a community member](/blog/2018/08/08/contributor-post-vitaliy/) and will be posted on the [GitLab blog page](/blog/).
+
+When developing a blog post, follow the [blog guidelines](/handbook/marketing/blog/).
+
+### Following up on inactive merge requests
+
+Periodically, there should be a review of community MR's that has not had a meaningful activity for an extended period (e.g. >3 months).  A good place to start would be to search for all MR's with a label `Community contribution` and a milestone `No milestone`.  A follow-up should be made with either the community member or MR coaches to ask if there's a plan to continue work on the MR or if MR should be closed.
+
+## Recognition for contributors
+
+### Most Valuable Person (MVP)
+
+Every release, a contributor is selected as a Most Valuable Person (MVP) for significant contribution(s) for that release. Suggestions/discussions for the MVP take place in the [#release-post Slack channel](https://gitlab.slack.com/messages/release-post). GitLab team-members and [Core Team members](/community/core-team/) are all encouraged to participate in the MVP discussion.  Based on the discussion in the Slack channel, the release post author for each release will make a decision on the MVP.
+
+Some common criteria to weigh who to nominate and who should be selected:
+
+- The impact of a contribution  (could be small, or simple change but big impact for users)
+- The complexity/difficultly of the contribution
+- Conistency: A contributor who continually contributes could be nominated for MVP for any given release.
+
+See the [Release Posts section](/handbook/marketing/blog/release-posts/#mvp) for more details on how to add an MVP to the release post.
+
+After each release, MVPs are added to the [GitLab Hall of Fame](/community/mvp/).
+
+### Top Annual Contributors
+
+In order to recognize regular contributors, the list of top contributors for each calendar year will be published in the [Top Annual Contributors page](/community/top-annual-contributors/). There will be three categories of top contributors:
+
+*  SuperStar: more than 75 MRs merged
+*  Star: between 11 and 75 MRs merged
+*  Enthusiast: between 5 and 10 MRs merged
+
+Customized GitLab merchandise will be created for these contributors and will be available on Printfection. For GitLab team members, you can follow the steps below to get the awards to the wider community members.
+
+1. Login to Printfection using the credentials in 1Password.
+1. Under `Campaigns`, go to `Giveaways` and create a new `GIVEAWAY CAMPAIGN` (you may need to [create a new `Kit`](/handbook/marketing/community-relations/community-advocacy/workflows/merchandise-handling/#creating-giveaway-kits) under the `Merchandise` tab if you want to include more than one item).
+1. Add the item/kit to the campaign.
+1. Generate Giveaway links for each contributors.
+1. Include the Giveaway link in the individual email to the Top Annual Contributors.
+
+
+### How to update KPIs for the Marketing Key Meeting
+
+1. Find the link to the current month's deck in the [#keymonthlymarketingmetrics](https://gitlab.slack.com/archives/CM5UC5XPT) Slack channel. It is typically shared on the second Monday of the month.
+1. Navigate to the slide containing the Meetups per month chart (slides 6-8 typically contain the Community Relations metrics).
+1. Hover over the top right corner of the "Wider community contributions per milestone" chart above (with the blue bars) to reveal the hamburger menu, open the hamburger menu, and click `Download Image`.
+1. Replace the existing `Contributions` chart in the Marketing Key Meeting deck with the newly downloaded image.
+
+## Contributor metrics
+
+Note: this is currently a working list of all locations where we can currently gather contributor metrics. It is not *yet* the final set of metrics we will be using to monitor the success of the contributor program with.
+
+### Bitergia dashboard
+The [Bitergia dashboard](https://gitlab.biterg.io) is public and anyone can use the dashboard to view/filter/export/analyze the data. A good place to start is the [Merged Community MRs dashboard](https://gitlab.biterg.io/app/kibana#/dashboard/f88a8d00-f36b-11e8-8fe1-b354a33b38be) as it includes information that most people are looking for such as merged community MRs, number of contributors (e.g. yearly), top contributors, merged MRs per milestone, etc. You can filter the dashboard data per milestone and repository (e.g. CE vs. EE).
+
+There are a number of other custom dashboards also available and to see the full list, click on `dashboard` on the upperleft (next to the Bitergia logo) and then select the dashboard link from the list. To learn more about using the Bitergia dashboard, you can view recordings of Bitergia training at the [Bitergia training livestream channel](https://www.youtube.com/playlist?list=PL-gGdYiFOp7_9ij_wNLKyHgZsyhAY42rv).
+
+Some administrative features (e.g. getting a short URL, creating a new dashboard) require a login, and the login information is available in the Team Vault on 1Password.
+
+### GitLab.com
+You can also directly query data from `Merge Requests` pages for projects (e.g. CE, EE, Gitter, Omnibus, Shell, etc.) on gitlab.com and apply appropriate filters for milestone, labels, etc. Some of the examples are listed in the metrics table below.
+
+### Number of Contributors
+In the past we often mentioned 2,000+ contributors in the GitLab community (GitLab team members + wider community) as you can see in [this example](/blog/2018/08/13/join-the-gitlab-community/). However, this only included contributors to CE and EE projects based on the old [https://contributors.gitlab.com](https://web.archive.org/web/20190619012814/http://contributors.gitlab.com/) page.
+
+If you include other GitLab projects, the total number of contributors is much larger.
+
+<iframe src="https://gitlab.biterg.io/goto/97a5b88e986f2c5d81c017c6413910a1?embed=true" height="400" width="600"></iframe>
+
+- Total contributors: includes GitLab team members and wider community contributors (since 2015)
+- Wider community contributors: includes wider community contributors only (since 2015)
+  - See [our top misused terms page](/handbook/communication/top-misused-terms) for a refresher on the definition of wider community members.
+
+When people ask about the number of contributors at GitLab, it's best to clarify if they're asking about total contributors or wider community contributors. In most cases, people tend to be more interested in the wider community number.
+
+### Monitored projects
+
+We monitor and recognize contributions across a variety of projects on the [`gitlab-org` group](https://gitlab.com/groups/gitlab-org), not only [the GitLab project](https://gitlab.com/gitlab-org/gitlab).
+
+As a general rule, a project will be set up for monitoring wider community contributions if it uses the `gitlab-org` group milestones and the `Community contribution` label.
+
+See the exhaustive list of [monitored `gitlab-org` group projects](https://gitlab.com/Bitergia/c/gitlab/sources/blob/master/projects.json).

@@ -1,0 +1,100 @@
+---
+layout: handbook-page-toc
+title: "Design Review Process"
+---
+
+## On this page
+
+{:.no_toc .hidden-md .hidden-lg}
+
+- TOC
+{:toc .hidden-md .hidden-lg}
+
+## Overview
+
+Design reviews are mandatory for every merge request in these projects:
+
+1. [`design.gitlab.com`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com)
+1. [`gitlab`](https://gitlab.com/gitlab-org/gitlab) (merge requests that have the [UX label](/handbook/engineering/ux/ux-department-workflow/#how-we-use-labels))
+1. [`gitlab-svgs`](https://gitlab.com/gitlab-org/gitlab-svgs)
+1. [`gitlab-ui`](https://gitlab.com/gitlab-org/gitlab-ui)
+
+All designers are maintainers of the [`gitlab-design`](https://gitlab.com/gitlab-org/gitlab-design) project. If you are interested in becoming a Maintainer of UI (`.scss`) for `gitlab`, and `gitlab-ui` projects, please follow the [Engineering Review Workflow](/handbook/engineering/workflow/code-review/).
+
+To perform a review, you should familiarize yourself with and follow our [Code Review Guidelines][code-review-guidelines], [Design Contribution Guidelines](https://gitlab.com/gitlab-org/gitlab-design/blob/master/CONTRIBUTING.md), and the contribution guidelines for every aforementioned project.
+
+You can find all design reviewers and maintainers by looking on the [team page](/company/team/) and filtering by `UX Department` or on the list of [GitLab Engineering Projects](/handbook/engineering/projects/), both of which are fed by `data/team.yml` file.
+
+These guidelines describe who would need to review, approve, and merge your (or a community member's) merge request.
+
+## Reviewer
+
+All GitLab designers can (and are encouraged to) perform design and code reviews on merge requests that impact product design. This includes contributions from [GitLab Team Members](/handbook/communication/top-misused-terms) and the wider GitLab community. If you want to review merge requests, you can wait until someone assigns you one, but you are also more than welcome to browse the list of open merge requests and leave any feedback or questions you may have.
+
+Note that while all designers can review all merge requests, the ability to accept merge requests is restricted to maintainers.
+
+## Maintainer
+
+Maintainers are GitLab designers who:
+
+- Are experts at design and [code review][code-review-guidelines]
+- Know the GitLab product, design guidelines, and code base very well
+- Are empowered to accept merge requests in one or several [GitLab Engineering Projects](/handbook/engineering/projects/)
+
+Every project has at least one maintainer, but most have multiple, and some projects (like gitlab-ui and design.gitlab.com) have separate maintainers for design and frontend.
+
+As with regular reviewers, design maintainers can be found on the [team page](/company/team/) or on the list of [GitLab Engineering Projects](/handbook/engineering/projects/).
+
+Read more about what makes great maintainers in the [Engineering Review Workflow](/handbook/engineering/workflow/code-review/#maintainer).
+
+### How to become a maintainer
+
+We follow the same maintainer guidelines as our Engineering counterparts. Get familiar with those guidelines and how to become a maintainer in the [Engineering Review Workflow][eng-become-maintainer].
+
+Three key aspects of that process:
+
+1. **“Maintainer-level” merge requests**: Candidates should have specific examples of recent “maintainer-level” merge requests. They can work on any kind of merge request, but “maintainer-level” ones are the focus of the maintainership. “Maintainer-level” merge requests are described in the [Engineering Review Workflow][eng-become-maintainer].
+1. **Reviews or contributions**: Contributing merge requests also counts. Whether merge requests are reviewed or contributed by a candidate, they should consistently make it through reviewer and/or maintainer review without significant required changes.
+1. **Traineeship optional**: The [trainee maintainer program](#trainee-maintainer) (traineeship) supports reviewers in becoming maintainers, but the program is not a requirement. Designers that have been recenly involved in a fair amount of “maintainer-level” merge requests can become maintainers without the traineeship. Anyone can nominate oneself (or someone else) for maintainership, following the process described in the [Engineering Review Workflow][eng-become-maintainer].
+
+#### Trainee maintainer
+
+**We're not able to support more trainees at the moment. Even so, we still encourage people to nominate themselves if they're interested! We'll accomodate them once we have a Support Maintainer available for them.**
+
+We follow the same trainee maintainer program (traineeship) as our Engineering counterparts. Anyone may nominate themselves as a trainee by opening a tracking issue using the [Trainee design maintainer template](https://gitlab.com/gitlab-com/www-gitlab-com/issues/new?issuable_template=trainee-design-maintainer).
+
+For the traineeship, a design maintainer is assigned as Support Maintainer to each trainee. The Support Maintainer will direct merge requests for review, give feedback on proposals, and discuss process or progress during 1:1 sessions. Trainees can always reach out to their managers or other maintainers for feedback and guidance separate from the dedicated Support Maintainer.
+
+We try to keep a maximum of one trainee per maintainer, so that maintainers are not overloaded with their additional role as Support Maintainers and can provide adequate guidance. See our [current trainee maintainers](#current-trainee-maintainers).
+
+##### Duration
+
+The traineeship is a long commitment, usually several months, and takes away time from other responsibilities. If you're interested in enrolling in this program, please talk with your manager and team before nominating yourself, as the traineeship is likely to impact your capacity.
+
+There are two aspects that play a big part in the duration of the traineeship: the number of hours that are dedicated to it and the number of available merge requests for the trainee. When these two aspects oppose each other, the traineeship can take longer than expected:
+
+1. **Many hours, few merge requests**: To increase the number of merge requests, the trainee can always make their own contributions. Reviewing merge requests from others is not the only way to become a maintainer. The trainee must be creative and try to work on “maintainer-level” merge requests as much as possible.
+1. **Few hours, many merge requests**: Trying to review or contribute many merge requests in few hours can have a negative effect on quality. The trainee should focus on quality because that is what is evaluated. They should also follow our [first-response Service-level Objective (SLO)](/handbook/engineering/workflow/code-review/#first-response-slo). If the trainee wants to speed up the traineeship, they should talk with their manager to find ways to balance their workload and free up more time for this program.
+
+To help track progress, we encourage trainees to make the traineeship one of their personal OKRs.
+
+### Maintainer ratios
+
+See the [Pajamas maintainer ratio dashboard](https://app.periscopedata.com/app/gitlab/658466/Pajamas-Design-System).
+
+<embed width="100%" height="350" src="<%= signed_periscope_url(dashboard: 658466, embed: 'v2') %>">
+
+##### Current trainee maintainers
+
+| Project | Trainee | Support Maintainer |
+| ------- | ------- | ------------------ |
+| Pajamas Design System | [Jeremy Elder](https://gitlab.com/jeldergl) | [Taurie Davis](https://gitlab.com/tauriedavis) |
+| Pajamas Design System | [Jarek Ostrowski](https://gitlab.com/jareko) | [Taurie Davis](https://gitlab.com/tauriedavis) |
+| Pajamas Design System | [Juan J. Ramirez](https://gitlab.com/jj-ramirez) | [Rayana Verissimo](https://gitlab.com/rayana) |
+| Pajamas Design System | [Amelia Bauerly](https://gitlab.com/ameliabauerly) | [Pedro Moreira da Silva](https://gitlab.com/pedroms) |
+| Pajamas Design System (Figma) | [Nadia Sotnikova](https://gitlab.com/nadia_sotnikova) | [Jeremy Elder](https://gitlab.com/jeldergl) |
+| Pajamas Design System (Figma) | [Michael Le](https://gitlab.com/mle) | [Jeremy Elder](https://gitlab.com/jeldergl) |
+| GitLab SVGs | [Taurie Davis](https://gitlab.com/tauriedavis) | [Jeremy Elder](https://gitlab.com/jeldergl) |
+
+[code-review-guidelines]: https://docs.gitlab.com/ee/development/code_review.html
+[eng-become-maintainer]: /handbook/engineering/workflow/code-review/#how-to-become-a-maintainer

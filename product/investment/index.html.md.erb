@@ -1,0 +1,108 @@
+---
+layout: handbook-page-toc
+title: Product Investment
+---
+
+This page is meant to provide insight into how we consider and allocate our investment across our [Product Hierarchy](/handbook/product/product-categories/#hierarchy).
+
+## Investment by Stage
+
+We have a framework we use to assess the investment level for each stage.  The three investment drivers are as follows:
+
+1. <span class="colour" style="color:rgb(0, 0, 0)">Product Usage Driver Score is a measure of the number of active users per month for that stage</span>
+2. <span class="colour" style="color:rgb(0, 0, 0)">Revenue Driver score is a measure of the ability of that stage to increase revenue through higher ASP or seat adds</span>
+3. <span class="colour" style="color:rgb(0, 0, 0)">SAM (Served Addressable Market) Driver score is a measure of the size of the DevOps market that stage enables GitLab to serve over the next three years</span>
+
+Each driver is scored on a 1-5 basis.  Here is a description of how each driver is scored.
+
+| Score | Usage Driver Key | Revenue Driver Key | SAM Driver Key |
+| ----- | ---------------- | ------------------ | -------------- |
+| 1 | <10k SMAU | Not a driver of paid sales | <200m SAM over the next three years |
+| 2 | 10k-50k SMAU | Used by paid customers, but not a major element in paid sales | 200m-500m SAM over the next three years |
+| 3 | 50k-100k SMAU | Key element in Starter+ sales | 500m-1B SAM over the next three years |
+| 4 | 100k-200k SMAU | Key element in Premium+ sales | 1B-2B SAM over the next 3 years |
+| 5 | >200k SMAU | Key element in Ultimate sales | >2B SAM over the next three years |
+
+The following table provides scores for each of our DevOps stages and a comparison of the total score to our current development spend allocation.
+
+| Stage | Usage Driver Score | Revenue Driver Score | SAM Driver Score | Combined Score | % of Total Score | Stage Development Spend % | Score/Spend Difference |
+|-|-|-|-|-|-|-|-|
+<% # this calculates the total score across all stages needed to calculate the percent of total score %>
+<% totalScore = 0 %>
+<% data.sections.each do |sectionKey, section| %>
+  <% data.stages.stages.select{|stageKey,stage| stage.section==sectionKey}.each do |stageKey, stage| %>
+    <% next if !stage.marketing %>
+    <% totalScore += stage.usage_driver_score.to_i + stage.revenue_driver_score.to_i + stage.sam_driver_score.to_i %>
+  <% end %>
+<% end %>
+<% data.sections.each do |sectionKey, section| %>
+  <% data.stages.stages.select{|stageKey,stage| stage.section==sectionKey}.each do |stageKey, stage| %>
+    <% next if !stage.marketing %>
+    <% stageLine=[] %>
+    <% combinedScore = stage.usage_driver_score.to_i + stage.revenue_driver_score.to_i + stage.sam_driver_score.to_i %>
+    <% percent_of_total = (combinedScore.to_f/totalScore.to_f)*100 %>
+    <% difference = stage.stage_development_spend_percent.to_f - percent_of_total%>
+    <% stageLine << "#{stage.display_name}"%>
+    <% stageLine << "#{stage.usage_driver_score}" if stage.usage_driver_score %>
+    <% stageLine << "#{stage.revenue_driver_score}" if stage.revenue_driver_score %>
+    <% stageLine << "#{stage.sam_driver_score}" if stage.sam_driver_score %>
+    <% stageLine << "#{combinedScore}" %>
+    <% stageLine << "#{percent_of_total.round(1)}%" %>
+    <% stageLine << "#{stage.stage_development_spend_percent}%" if stage.stage_development_spend_percent %>
+    <% stageLine << "#{"+" if difference > 0}#{difference.round(1)}%" %>
+    <%= "| #{stageLine.join(' | ')} |" if stageLine %>
+  <% end %>
+<% end %>
+
+## Investment by Group
+
+*Note: Enablement and Growth stages and groups aren't included, as they don't have specific target markets, and don't have a dedicated SAM.  Therefore, they can't be compared directly with feature-function stages and aren't included in this analysis.*
+
+| Section: Stage: Group | Usage Driver | ASP Driver | SAM Driver | Total | % of Total | Group Development Spend % | Score/Spend Difference |
+|-|-|-|-|-|-|-|-|
+<% # this calculates the total score across all stages needed to calculate the percent of total score %>
+<% totalScore = 0 %>
+<% data.sections.each do |sectionKey, section| %>
+  <% data.stages.stages.select{|stageKey,stage| stage.section==sectionKey}.each do |stageKey, stage| %>
+    <% next if !stage.marketing %>
+    <% totalScore += stage.usage_driver_score.to_i + stage.revenue_driver_score.to_i + stage.sam_driver_score.to_i %>
+  <% end %>
+<% end %>
+<% totalScore = 0 %>
+<% data.sections.each do |sectionKey, section| %>
+  <% data.stages.stages.select{|stageKey,stage| stage.section==sectionKey}.each do |stageKey, stage| %>
+    <% stage.groups.each do |groupKey, group| %>
+      <% totalScore += group.usage_driver_score.to_i + group.asp_driver_score.to_i + group.sam_driver_score.to_i %>
+    <% end %>
+  <% end %>
+<% end %>
+<% data.sections.each do |sectionKey, section| %>
+  <% data.stages.stages.select{|stageKey,stage| stage.section==sectionKey}.each do |stageKey, stage| %>
+    <% stage.groups.each do |groupKey, group| %>
+      <% next if !group.sam_driver_score %>
+      <% next if !group.sam_driver_score %>
+      <% combinedScore = group.usage_driver_score.to_i + group.asp_driver_score.to_i + group.sam_driver_score.to_i %>
+      <% percent_of_total = (combinedScore.to_f/totalScore.to_f)*100 %>
+      <% difference = group.group_development_spend_percent.to_f - percent_of_total%>
+      <% groupLine=[] %>
+      <% # groupLine << "#{section.name} : #{stage.display_name}: #{group.name}" %>
+      <% groupLine << "[#{section.name}: #{stage.display_name}: #{group.name}](/handbook/#{group.group_link})" if group&.group_link %>
+      <% groupLine << group.usage_driver_score ? "#{group.usage_driver_score}" : "" %>
+      <% groupLine << group.asp_driver_score ? "#{group.asp_driver_score}" : "" %>
+      <% groupLine << group.sam_driver_score ? "#{group.sam_driver_score}" : "" %>
+      <% groupLine << "#{combinedScore}" %>
+      <% groupLine << "#{percent_of_total.round(1)}%" %>
+      <% groupLine << "#{group.group_development_spend_percent}%" if group.group_development_spend_percent %>
+      <% groupLine << "#{"+" if difference > 0}#{difference.round(1)}%" %>  
+      <%= "| #{groupLine.join(' | ')} |" if groupLine %>
+    <% end %>
+  <% end %>
+<% end %>
+
+
+## Changes
+
+Changes to this page are made by adding new values to the single sources of truth ([categories.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/categories.yml) and [stages.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml)) and then editing this page in order to display those values in table form. Be sure the definition for any column value is defined in [stage](/handbook/marketing/website/#stage-attributes) and [category attributes](/handbook/marketing/website/#category-attributes) and that the column headers link to those definitions.
+
+The process for making changes requires you to submit a merge request to the [stages.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml) for the specific keywords that have changed and provide the data source for that change. Assign the merge request to the EVP or VP of Product and slack `#product` for approval/merge. You can reference the [Release Stage update](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/62103) for an example.
+    
