@@ -1,4 +1,4 @@
-# ReadySet Technology Company Handbook
+# ReadySet Technology Team Handbook
 
 ## About the handbook
 
