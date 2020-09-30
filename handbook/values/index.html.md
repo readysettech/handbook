@@ -57,7 +57,6 @@ When providing feedback, always make it about the work itself;
 focus on the business impact and not the person.
 Make sure to provide at least one clear and recent example.
 If a person is going through a hard time in their personal life, then take that into account.
-An example of giving positive feedback is our [thanks chat channel](/handbook/communication/internal-communications).
 For managers, it's important to realize that team members react to a negative incident with their managers [six times more strongly](https://hbr.org/2013/03/the-delicate-art-of-giving-fee) than they do to a positive one.
 Keeping that in mind, if an error is so inconsequential that the value gained from providing criticism is low, it might make sense to keep that feedback to yourself.
 In the situations where negative feedback must be given, focus on the purpose for that feedback: to improve the team member's performance going forward.
@@ -69,7 +68,6 @@ So we encourage people to get to know each other on a personal level through vid
 
 ##### Don't pull rank
 If you have to remind someone of the position you have in the company, you're doing something wrong.
-People already know [our decision-making process](/handbook/leadership/#making-decisions).
 Explain why you're making the decision, and respect everyone irrespective of their function.
 This includes using the rank of another person - [including the CEO](https://twitter.com/EmiliejayG/status/1198731054162432000) - to sell an idea or decision.
 
@@ -111,19 +109,19 @@ No need to brainstorm, wait for consensus, or [do with two what you can do yours
 
 ##### Blameless problem solving
 Investigate mistakes in a way that focuses on the situational aspects of a failure’s mechanism and the decision-making process that led to the failure, rather than cast blame on a person or team.
-We hold blameless [root cause analyses](https://codeascraft.com/2012/05/22/blameless-postmortems/) and [retrospectives](/handbook/engineering/management/team-retrospectives/) for stakeholders to speak up without fear of punishment or retribution.
+We hold blameless [root cause analyses](https://codeascraft.com/2012/05/22/blameless-postmortems/) for stakeholders to speak up without fear of punishment or retribution.
 
 ##### It's impossible to know everything
 We know we must rely on others for the expertise they have that we don't.
 It's OK to admit you don't know something and to ask for help, even if doing so makes you feel vulnerable.
-It is never too late to ask a question, and by doing so, you can get the information you need to produce results and to strengthen your own skills as well as GitLab as a whole.
+It is never too late to ask a question, and by doing so, you can get the information you need to produce results and to strengthen your own skills as well as the company as a whole.
 After your question is answered, please document the answer appropriately so that it can be shared.
 
 Don't display surprise when people say they don't know something, as it is important that everyone feels comfortable saying "I don't know" and "I don't understand."
 (As inspired by [Recurse](https://www.recurse.com/manual#sub-sec-social-rules).)
 
 ##### Collaboration is not consensus
-When collaborating, it is always important to stay above radar and work [transparently](/handbook/values/#transparency), but collaboration is [not consensus](/handbook/leadership/#making-decisions).
+When collaborating, it is always important to stay above radar and work [transparently](/handbook/values/#transparency), but collaboration is not consensus.
 You don't need to ask people for their input, and they shouldn't ask you "Why didn't you ask me?"
 You don't have to wait for people to provide input, if you did ask them.
 We believe in permissionless innovation—you don't need to involve people, but everyone can contribute.
@@ -149,7 +147,7 @@ off shouldn't feel like they did something wrong. You don't have to defend how y
 We give people agency to focus on what they think is most beneficial. If a meeting doesn't seem interesting and someone's active participation is not critical to the outcome of the meeting, they can always opt to not attend, or during a video call they can work on other things if they want. Staying in the call may still make sense even if you are working on other tasks, so other peers can ping you and get fast answers when needed. This is particularly useful in multi-purpose meetings where you may be involved for just a few minutes.
 
 ##### Write promises down
-Agree in writing on measurable goals. Within the company we use [OKRs](/company/okrs/) for that.
+Agree in writing on measurable goals.
 
 ##### Growth mindset
 You don't always get results and this will result in criticism from yourself and/or others. We believe our talents can be developed through hard work, good strategies, and input from others. We try to hire people based on [their trajectory](https://hbr.org/2016/01/what-having-a-growth-mindset-actually-means).
@@ -165,7 +163,7 @@ We refer to this as "persistence of purpose". As talked about in [The Influence 
 We expect team members to complete tasks that they are assigned. Having a task means you are responsible for anticipating and solving problems. As an owner, you are responsible for overcoming challenges, not suppliers or other team members. Take initiative and proactively inform stakeholders when there is something you might not be able to solve.
 
 ##### Sense of urgency
-At an exponentially-scaling startup, time gained or lost has compounding effects. Try to get the results as fast as possible, but without compromising our other values and [ways we communicate](/handbook/communication), so the compounding of results can begin and we can focus on the next improvement.
+At an exponentially-scaling startup, time gained or lost has compounding effects. Try to get the results as fast as possible, but without compromising our other values and communication, so the compounding of results can begin and we can focus on the next improvement.
 
 ##### Ambitious
 While we iterate with small changes, we strive for large, ambitious results.
@@ -206,10 +204,10 @@ Make a conscious effort to **recognize** the constraints of others within the te
 For example, sales is hard because you are dependent on another organization, and development is hard because you have to preserve the ability to quickly improve the product in the future.
 
 ##### Self-service and self-learning
-Team members should first [search for their own answers](/company/culture/all-remote/self-service/) and, if an answer is not readily found or the answer is not clear, ask in public. [Write down any new information discovered](/handbook/values/#write-things-down) and pay it forward so that those coming after will have better efficiency built on top of practicing collaboration, inclusion, and documenting the results.
+Team members should first search for their own answers and, if an answer is not readily found or the answer is not clear, ask in public. [Write down any new information discovered](#write-things-down) and pay it forward so that those coming after will have better efficiency built on top of practicing collaboration, inclusion, and documenting the results.
 
 ##### Efficiency for the right group
-It is easy to prioritize consistency over efficiency because consistency is often more efficient initially. We should slow down when optimizing for consistency. Taking a company-wide lens when evaluating changes will help ensure that new processes will improve efficiency for GitLab as a whole.
+It is easy to prioritize consistency over efficiency because consistency is often more efficient initially. We should slow down when optimizing for consistency. Taking a company-wide lens when evaluating changes will help ensure that new processes will improve efficiency for the company as a whole.
 
 ##### Be respectful of others' time
 Consider the time investment you are asking others to make with meetings. Try to avoid meetings, and if one is necessary, try to make attendance optional for as many people as possible. If you are able to get through the agenda for a particular meeting under the allotted time, end the meeting early so that attendees can have their time back.
@@ -389,7 +387,7 @@ the author to split it into smaller merge requests before reviewing.
 
 ##### When we iterate slowly
 In some cases, rapid iteration can get in the way of [results](#results). In those instances, we add additional review to the approval
-process; not to prohibit, but to be more deliberate in our iteration. The change process is documented in the [GitLab Handbook Usage](/handbook/handbook-usage/) page and takes place via merge request approvals.
+process; not to prohibit, but to be more deliberate in our iteration. The change process is documented in the [Handbook Usage](/handbook/handbook-usage/) page and takes place via merge request approvals.
 
 
 ## 👁️ Transparency
@@ -511,7 +509,7 @@ Occasionally, values can contradict each other. For instance, transparency would
 
 Whatever behavior you reward will become your values. We reinforce our values by:
 
-1. What we expect from all team members, as [ambassadors for our values](/handbook/leadership/#gitlab-team-members).
+1. What we expect from all team members, as ambassadors for our values.
 1. What we refer to when [making decisions](/handbook/leadership/#making-decisions).
 1. The example the E-group sets for the company.
 1. What we select for during [hiring](/handbook/hiring/).
