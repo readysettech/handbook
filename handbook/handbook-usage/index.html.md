@@ -30,21 +30,19 @@ Please follow these guidelines and remind others of them.
 
 ### Editing the handbook
 
-Strongly consider learning how to edit the [handbook using git](/handbook/git-page-update) and/or via [the web IDE](/handbook/git-page-update/#webide-using-the-browser).
-Please read through the [Writing Style Guidelines](/handbook/communication/#writing-style-guidelines) before contributing.
-
+Strongly consider learning how to edit the handbook using git and/or via the web IDE.
 
 ### Handbook First Competency
 
-In an all-remote, asyncronous organization, each team member should practice handbook first. For more information on what it means to be handbook first, please refer to the [why handbook first](/handbook/handbook-usage/#why-handbook-first) section of this page.
+In an all-remote, asyncronous organization, each team member should practice handbook first. For more information on what it means to be handbook first, please refer to the [why handbook first](#why-handbook-first) section of this page.
 
 **Skills and behaviors of handbook first as a Team Member**:
 
 - Actively contributes to the handbook.
-- [Everything starts with a merge request](/handbook/communication/#everything-starts-with-a-merge-request)
+- Everything starts with a merge request
 - Provides links information from the handbook when answering questions and if the information doesn't exist in the handbook, then the team member adds it.
 
-**Skills and behaviors of handbook first as a People Leader**:
+**Skills and behaviors of handbook first as a Leader**:
 
 - Holds their team and others accountable for being handbook first
 - Enables new team members and managers on how to leverage the handbook as a resource.

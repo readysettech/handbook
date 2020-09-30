@@ -1,12 +1,12 @@
 ## CREDIT
 
 Our six values are
-[**🤝 Collaboration**](#collaboration),
-[**📈 Results** ](#results),
-[**⏱️ Efficiency**](#efficiency),
-[**🌐 Diversity, Inclusion & Belonging**](#diversity-inclusion),
-[**👣 Iteration**](#iteration), and
-[**👁️ Transparency**](#transparency),
+**🤝 Collaboration**,
+**📈 Results**,
+**⏱️ Efficiency**,
+**🌐 Diversity, Inclusion & Belonging**,
+**👣 Iteration**, and
+**👁️ Transparency**,
 and together they spell the **CREDIT** we give each other by assuming
 good intent.
 
