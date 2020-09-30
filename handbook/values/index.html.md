@@ -204,7 +204,7 @@ Make a conscious effort to **recognize** the constraints of others within the te
 For example, sales is hard because you are dependent on another organization, and development is hard because you have to preserve the ability to quickly improve the product in the future.
 
 ##### Self-service and self-learning
-Team members should first search for their own answers and, if an answer is not readily found or the answer is not clear, ask in public. [Write down any new information discovered](#write-things-down) and pay it forward so that those coming after will have better efficiency built on top of practicing collaboration, inclusion, and documenting the results.
+Team members should first search for their own answers and, if an answer is not readily found or the answer is not clear, ask in public. Write down any new information discovered and pay it forward so that those coming after will have better efficiency built on top of practicing collaboration, inclusion, and documenting the results.
 
 ##### Efficiency for the right group
 It is easy to prioritize consistency over efficiency because consistency is often more efficient initially. We should slow down when optimizing for consistency. Taking a company-wide lens when evaluating changes will help ensure that new processes will improve efficiency for the company as a whole.
@@ -225,7 +225,7 @@ You should have clear objectives and the freedom to work on them as you see fit.
 Keep one-to-many written communication short, as mentioned in [this HBR study](https://hbr.org/2016/09/bad-writing-is-destroying-your-companys-productivity): "A majority say that what they read is frequently ineffective because it’s too long, poorly organized, unclear, filled with jargon, and imprecise."
 
 ##### Managers of one
-We want each team member to be [a manager of one](/handbook/leadership/#managers-of-one) who doesn't need daily check-ins to achieve their goals.
+We want each team member to be a manager of one who doesn't need daily check-ins to achieve their goals.
 
 ##### Responsibility over rigidity
 When possible, we give people the responsibility to make a decision and hold them accountable for that, instead of imposing rules and approval processes.
@@ -234,14 +234,14 @@ When possible, we give people the responsibility to make a decision and hold the
 Not every problem should lead to a new process to prevent them. Additional processes make all actions more inefficient; a mistake only affects one.
 
 ##### Move fast by shipping the minimal viable change
-We value constant improvement by iterating quickly, month after month. If a task is not the [smallest thing possible](#iteration), cut the scope.
+We value constant improvement by iterating quickly, month after month. If a task is not the smallest thing possible, cut the scope.
 
 
 ## 🌐 Diversity, Inclusion & Belonging
-Diversity, inclusion and belonging are fundamental to the success of a company. We aim to make a significant impact in our efforts to [foster an environment where everyone can thrive](/handbook/people-group/code-of-conduct/). We are designing a multidimensional approach to ensure that ReadySet is a place where people from every background and circumstance feel like they belong and can contribute. We actively chose to [build and institutionalize](http://www.russellreynolds.com/en/Insights/thought-leadership/Documents/Diversity%20and%20Inclusion%20GameChangers%20FINAL.PDF) a culture that is [inclusive](/company/culture/inclusion/) and supports all team members equally in the process of achieving their professional goals.
+Diversity, inclusion and belonging are fundamental to the success of a company. We aim to make a significant impact in our efforts to foster an environment where everyone can thrive. We are designing a multidimensional approach to ensure that ReadySet is a place where people from every background and circumstance feel like they belong and can contribute. We actively chose to [build and institutionalize](http://www.russellreynolds.com/en/Insights/thought-leadership/Documents/Diversity%20and%20Inclusion%20GameChangers%20FINAL.PDF) a culture that is inclusive and supports all team members equally in the process of achieving their professional goals.
 
 ##### Bias towards asynchronous communication
-Take initiative to operate [asynchronously](/company/culture/all-remote/asynchronous/) whenever possible. This shows care and consideration for those who may not be in the same time zone, are traveling outside of their usual time zone, or are [structuring their day](/company/culture/all-remote/people/#creating-a-more-efficient-day) around pressing commitments at home or in their community.
+Take initiative to operate asynchronously whenever possible. This shows care and consideration for those who may not be in the same time zone, are traveling outside of their usual time zone, or are structuring their day around pressing commitments at home or in their community.
 
 This is demonstrated by using email, text, or Slack to communicate instead of calling or pressuring others to be online outside of their working hours; sharing meeting notes; checking busy notices on calendars; and being sensitive to local holidays and vacation statuses.
 
@@ -261,7 +261,7 @@ At ReadySet we believe that everyone is entitled to a safe working space where t
 While it's wise to seek advice from experts within your function, we encourage team members to seek and provide feedback across departments. This enables the team to iterate more quickly, taking a more diverse perspective into account.
 
 ##### Make family feel welcome
-One of the unique elements to an [all-remote culture](/company/culture/all-remote/) is the ability to visit a person's home while collaborating. If the tenor of the meeting allows, feel welcome to invite your family members or pets to drop by and greet your colleagues. Be mindful of language and use of profanity to encourage a family-friendly environment.
+One of the unique elements to a remote working culture is the ability to visit a person's home while collaborating. If the tenor of the meeting allows, feel welcome to invite your family members or pets to drop by and greet your colleagues. Be mindful of language and use of profanity to encourage a family-friendly environment.
 
 ##### Shift working hours for a cause
 Caregiving, outreach programs, and community service do not conveniently wait for regular business hours to conclude. If there's a cause or community effort taking place, feel welcome to work with your manager and shift your working hours to be available during a period where you'll have the greatest impact for good. For colleagues supporting others during these causes, document everything and strive to post recordings so it's easy for them to catch up.
@@ -273,23 +273,17 @@ We want cultural diversity instead of cultural conformity, such as a [brogrammer
 ##### Religion and politics at work
 We generally avoid discussing politics or religion in public forums because it is easy to alienate people that have a minority opinion. This doesn’t mean we never discuss these topics. Because we value diversity, inclusion and belonging, and want all team members to feel welcome and contribute equally, we encourage free discussion of operational decisions that can move us toward being a more inclusive company.
 
-There is sometimes a grey area where advocating for diversity and political activities may intersect. Team members should use discretion in grey area communications, because a culture of belonging requires us to be respectful of the broad spectrum of views within our work environment. What does this mean in practice? Please feel empowered to share information that highlights diversity, inclusion and belonging issues and how our team members can get involved. In line with our [Code of Conduct](/handbook/people-group/code-of-conduct/), avoid posting articles that reference specific political figures or parties.  
+There is sometimes a grey area where advocating for diversity and political activities may intersect. Team members should use discretion in grey area communications, because a culture of belonging requires us to be respectful of the broad spectrum of views within our work environment. What does this mean in practice? Please feel empowered to share information that highlights diversity, inclusion and belonging issues and how our team members can get involved.  
 
-While it is acceptable for individuals to bring up politics and religion in social contexts such as coffee chats and real-life meetups with other coworkers (with the goal to understand and not judge), always be aware of potential sensitivities, exercise your best judgment, and make sure you stay within the boundaries of our [Code of Conduct](/handbook/people-group/code-of-conduct/). 
+While it is acceptable for individuals to bring up politics and religion in social contexts such as coffee chats and real-life meetups with other coworkers (with the goal to understand and not judge), always be aware of potential sensitivities and exercise your best judgment. 
 
 We have employees from all over the globe, where perspectives and local norms may differ from culture to culture. Diversity, inclusion and belonging is about broad inclusion at a worldwide level. If there is a question or concern, please feel free to reach out to your manager, the President, or the CEO.
 
 ##### Building a safe community
 Do **not** make jokes or unfriendly remarks about characteristics of people and how they identify.
 Everyone has the right to feel safe when working for ReadySet.
-We do not tolerate abuse, [harassment](/handbook/anti-harassment/), exclusion, discrimination, or retaliation by any team members.
+We do not tolerate abuse, [harassment](/handbook/anti-harassment/index.html.md), exclusion, discrimination, or retaliation by any team members.
 You can always **refuse** to deal with people who treat you badly and get out of situations that make you feel uncomfortable.
-
-##### Unconscious bias
-We recognize that unconscious bias is something that affects everyone and that the
-effect it has on us as humans and our company at large.
-We are responsible for understanding our own implicit biases and helping others
-understand theirs. We are continuously [working on getting better at this topic](/company/culture/inclusion/unconscious-bias/).
 
 ##### Inclusive language & pronouns
 Use **inclusive** language.
@@ -297,13 +291,9 @@ While there are several good guides from folks like [18f](https://content-guide.
 When new possibly non-inclusive words arise, we prefer to be proactive and look for an alternative.
 If your goal is to be inclusive, it is more effective to make a small adjustment in the vocabulary when some people have a problem with it, rather than making a decision to not change it because some people don’t think it is a problem.
 And if you make a mistake (e.g. accidentally using the wrong pronoun or an outdated phrase), acknowledge it, **apologize gracefully and move on**; there is no need to dwell on it, and you can work to avoid making that mistake in the future.
-Please also visit our [Gender and Sexual-orientation Identity Definitions and FAQ](/handbook/people-group/gender-pronouns/) page if you have questions around pronouns and other topics related to gender / sexual orientation.
-
-##### Inclusive interviewing
-This is documented on our page about [interviewing](/handbook/hiring/interviewing/#inclusive-interviewing).
 
 ##### Inclusive meetings
-Be consciously inclusive in [meetings](/company/culture/all-remote/meetings/) by giving everyone present an opportunity to talk and present their points of view. This can be especially important in a remote setting.
+Be consciously inclusive in meetings by giving everyone present an opportunity to talk and present their points of view. This can be especially important in a remote setting.
 
 With internal meetings, consider using an open and live agenda document for questions.
 
@@ -317,14 +307,6 @@ As a dispersed company, we have team members from many different backgrounds and
 
 ##### Family and friends first, work second
 Long-lasting relationships are the rocks of life, and come before work.
-
-##### Additional Resources
-If you would like to improve your skills or expand your knowledge on topics relating to Diversity, Inclusion, & Belonging, check out these resources: 
-
--  [Being an Ally](/company/culture/inclusion/being-an-ally/)
--  [Being Inclusive](/company/culture/inclusion/being-inclusive/)
--  [Recognizing Bias](/company/culture/inclusion/unconscious-bias/)
-
 
 ## 👣 Iteration
 
@@ -350,7 +332,7 @@ Waiting for approval can slow things down. We can prevent this with automation (
 Small iterations make it easier to work with the wider community. Their work looks more like our work, and our work is also quicker to receive feedback.
 
 ##### Minimal Viable Change (MVC)
-We encourage MVCs to be as small as possible. Always look to make the quickest change possible to improve the user's outcome. If you validate that the change adds more value than what is there now, then do it. No need to wait for something more robust. More information is in the [product handbook](/handbook/product/product-principles/#the-minimal-viable-change-mvc), but this applies to everything we do in all functions. Specifically for product MVCs, there is additional responsibility to validate with customers that we're adding useful functionality without obvious bugs or usability issues.
+We encourage MVCs to be as small as possible. Always look to make the quickest change possible to improve the user's outcome. If you validate that the change adds more value than what is there now, then do it. No need to wait for something more robust. This applies to everything we do in all functions. Specifically for product MVCs, there is additional responsibility to validate with customers that we're adding useful functionality without obvious bugs or usability issues.
 
 ##### Make a proposal
 If you need to decide something as a team, make a concrete proposal instead of calling a meeting to get everyone's input. Having a proposal will be a much more effective use of everyone's time. Every meeting should be a review of a proposal. We should be [brainwriting on our own instead of brainstorming out loud](https://www.fastcompany.com/3033567/brainstorming-doesnt-work-try-this-technique-instead). State the underlying problem so that people have enough context to propose reasonable alternatives. The people that receive the proposal should not feel left out and the person making it should not feel bad if a completely different proposal is implemented. Don't let your desire to be involved early or to see your solution implemented stand in the way of getting to the best outcome. If you don't have a proposal, don't let that stop you from highlighting a problem, but please state that you couldn't think of a good solution and list any solutions you considered.
@@ -387,7 +369,7 @@ the author to split it into smaller merge requests before reviewing.
 
 ##### When we iterate slowly
 In some cases, rapid iteration can get in the way of [results](#results). In those instances, we add additional review to the approval
-process; not to prohibit, but to be more deliberate in our iteration. The change process is documented in the [Handbook Usage](/handbook/handbook-usage/) page and takes place via merge request approvals.
+process; not to prohibit, but to be more deliberate in our iteration. The change process is documented in the [Handbook Usage](/handbook/handbook-usage/index.html.md) page and takes place via merge request approvals.
 
 
 ## 👁️ Transparency
@@ -396,7 +378,7 @@ Be open about as many things as possible within the company. By making informati
 easily available, we can reduce the threshold to contribution and make collaboration easier. We accept that we occasionally make mistakes in the direction of transparency. Making mistakes and reflecting on them means we know where the limit of transparency is.
 
 ##### Not public
-We make most information internally public. However, it is [most important to focus on results](/handbook/values/#hierarchy). Therefore, information may be limited access due to privacy considerations, contractual obligation, or other reasons that the owner or DRI can specify.
+We make most information internally public. However, it is [most important to focus on results](#hierarchy). Therefore, information may be limited access due to privacy considerations, contractual obligation, or other reasons that the owner or DRI can specify.
 
 ##### Directness
 Being direct is about being transparent with each other. We try to be both straightforward
@@ -421,7 +403,7 @@ You have to achieve results on every decision while it stands, even when you are
 You should communicate with the DRI who can change the decision instead of someone who can't.
 
 ##### Findability
-Our transparency value means more than just making information accessible to all. In order to improve performance, it's important that we not only ensure information is accessible, but also ensure it flows to the correct places and is [findable](https://en.wikipedia.org/wiki/Findability) by those who need it. Focusing on information flow will ensure you, for example, utilize [multi-modal communication](/handbook/communication/#multimodal-communication), or that you keep your stakeholders informed of changes by posting links to MRs in Slack.
+Our transparency value means more than just making information accessible to all. In order to improve performance, it's important that we not only ensure information is accessible, but also ensure it flows to the correct places and is [findable](https://en.wikipedia.org/wiki/Findability) by those who need it. Focusing on information flow will ensure you, for example, utilize multi-modal communication, or that you keep your stakeholders informed of changes by posting links to MRs in Slack.
 
 ##### Say why, not just what
 Transparent changes have the reasons for the change laid out clearly along with the change itself. This leads to fewer questions later on because people already have some understanding. A change with no public explanation can lead to a lot of extra rounds of questioning, which is less efficient. 
@@ -433,16 +415,16 @@ Avoid using terms such as "industry standard" or "best practices" as they are va
 
 Similarly, merely stating a single value isn't a great explanation for why we are making a particular decision. Many things could be considered "iteration" or "efficiency" that don't match our definition of those values. Try to link to a sub-value of the value or provide more context, instead of just saying a single value's name.
 
-Saying why and not just what enables discussion around topics that may impact more than one value; for instance, when weighing the [efficiency of boring solutions](#boring-solutions) with the focus on [customer results](#customer-results). When decisions align with all of our values, they are easy to discuss and decide. When there are multiple values involved, using our [values hierarchy](/handbook/values/#hierarchy) and [directly](/handbook/values/#directness) discussing the tradeoffs is easier with more context.
+Saying why and not just what enables discussion around topics that may impact more than one value; for instance, when weighing the [efficiency of boring solutions](#boring-solutions) with the focus on [customer results](#customer-results). When decisions align with all of our values, they are easy to discuss and decide. When there are multiple values involved, using our [values hierarchy](#hierarchy) and [directly](#directness) discussing the tradeoffs is easier with more context.
 
 Articulating why also helps people understand how something changed when you [articulate that you changed your mind](#articulate-when-you-change-your-mind).
 
 Saying why does not mean justifying a decision against all other suggestions. 
-The [DRI](/handbook/people-group/directly-responsible-individuals/) is responsible for their decision. 
+The assigned DRI (directly responsible individual) is responsible for their decision. 
 The DRI is not responsible for convincing other people, but they should be able to articulate their reasoning for the change. 
 
 ##### Reproducibility
-Enable everybody involved to come to the same conclusion as you. This not only involves [reasoning](#say-why-not-just-what), but also providing, for example: raw data and not just plots; scripts to automate tasks and not just the work they have done; and documenting steps while analyzing a problem. Do your best to make the line of thinking transparent to others, even [if they may disagree](/handbook/leadership/#making-decisions).
+Enable everybody involved to come to the same conclusion as you. This not only involves [reasoning](#say-why-not-just-what), but also providing, for example: raw data and not just plots; scripts to automate tasks and not just the work they have done; and documenting steps while analyzing a problem. Do your best to make the line of thinking transparent to others, even if they may disagree.
 
 
 
@@ -505,34 +487,11 @@ This method is effective at soliciting productive feedback that doesn't derail a
 Occasionally, values can contradict each other. For instance, transparency would dictate we publish all security vulnerabilities the moment they are found, but this would jeopardize our users. In the end, results matter most for a company. We trust that our other values and processes will lead to better results. It's useful to keep in mind the reasoning behind our values to resolve confusion about what to do in a specific circumstance while maintaining consistency.
 
 
-## How do we reinforce our values
-
-Whatever behavior you reward will become your values. We reinforce our values by:
-
-1. What we expect from all team members, as ambassadors for our values.
-1. What we refer to when [making decisions](/handbook/leadership/#making-decisions).
-1. The example the E-group sets for the company.
-1. What we select for during [hiring](/handbook/hiring/).
-1. What we include in our offer letters [Offer letters](/handbook/people-group/contracts-and-international-expansion/#employment-and-contractor-agreements)
-1. What we emphasize during [on-boarding](/handbook/people-group/general-onboarding/).
-1. Behavior we give each other [360 feedback](/handbook/people-group/360-feedback/) on.
-1. Behavior we [compliment](/handbook/communication/#say-thanks).
-1. Criteria we use for [discretionary bonuses](/handbook/incentives/#discretionary-bonuses).
-1. Criteria we use for our [annual compensation review](/handbook/total-rewards/compensation/compensation-review-cycle/#annual-compensation-review).
-1. Criteria we use for [promotions](/handbook/people-group/promotions-transfers/).
-1. Criteria we use to [manage underperformance](/handbook/underperformance/).
-1. What we do when we [let people go](/handbook/people-group/offboarding/).
-1. Giving value awards during [Contribute](/company/culture/contribute/).
-1. Keeping them up to date by encouraging and being open to suggestions for improvement.
-
-
-In negative feedback, we should be specific about what the problem is. For example, saying someone is "[not living the values](https://hbr.org/2017/05/how-corporate-values-get-hijacked-and-misused)" isn't helpful.
-
 ## What to do if values aren't being lived out
 
 Value erosion can occur when indifference and apathy are tolerated. It can also occur when individuals justify undesired behaviors by interpreting values as "me values" rather than "company values." For example, a team member may speak to the importance of personal efficiency in order to justify not collaborating professionally with peers. This is not what we expect from team members in terms of efficiency and collaboration. 
 
-If you feel that values are not being lived out in a given scenario, speak up and ask for context in a respectful manner. Navigating value conflicts starts with [assuming positive intent](/handbook/values/#assume-positive-intent) from other team members. Offer links to relevant values and/or sub-values when discussing the issue.
+If you feel that values are not being lived out in a given scenario, speak up and ask for context in a respectful manner. Navigating value conflicts starts with [assuming positive intent](#assume-positive-intent) from other team members. Offer links to relevant values and/or sub-values when discussing the issue.
 
 ## Permission to play
 
@@ -545,11 +504,3 @@ From our values we excluded some behaviors that are obvious; we call them our *p
 1. Act in the best interest of the company, our team members, our customers, users, and investors.
 1. Act in accordance with the law.
 1. Don't show favoritism as [it breeds resentment, destroys employee morale, and creates disincentives for good performance](https://www.employmentlawfirms.com/resources/employment/discrimination/laws-preventing-favoritism-in-the-workplace). Seek out ways to be fair to everyone.
-
-## What is not a value
-
-- [All-remote](/company/culture/all-remote/) isn't a value. It is something we do because it helps to [practice our values](/company/culture/all-remote/values/) of transparency, efficiency, results, and diversity, inclusion & belonging.
-
-## Biggest risks
-
-We have a page which documents our [biggest risks](/handbook/leadership/biggest-risks/). Many of our [values](/handbook/values/) help to mitigate some of these risks.
