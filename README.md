@@ -16,5 +16,6 @@ Most guidelines in this handbook are meant to help, and unless otherwise stated,
 * [Handbook Usage](/handbook/handbook-usage/index.html.md)
 * [Values](/handbook/values/index.html.md)
 * [Anti-Harassment Policy](/handbook/anti-harassment/index.html.md)
+* [Time Off Policy](/handbook/timeoff.html.md)
 
 This handbook is modified from the open source Gitlab Handbook. The original license can be found in GITLAB_INITIAL_LICENCE
