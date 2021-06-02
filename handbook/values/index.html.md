@@ -243,7 +243,7 @@ Diversity, inclusion and belonging are fundamental to the success of a company. 
 ##### Bias towards asynchronous communication
 Take initiative to operate asynchronously whenever possible. This shows care and consideration for those who may not be in the same time zone, are traveling outside of their usual time zone, or are structuring their day around pressing commitments at home or in their community.
 
-This is demonstrated by using email, text, or Slack to communicate instead of calling or pressuring others to be online outside of their working hours; sharing meeting notes; checking busy notices on calendars; and being sensitive to local holidays and vacation statuses.
+This is demonstrated by using email, text, or Slack to communicate instead of calling or pressuring others to be online outside of their working hours; sharing meeting notes; checking busy notices on calendars; and being sensitive to [local holidays and vacation statuses](/handbook/timeoff.html.md).
 
 #### Embracing uncomfortable ideas and conversations 
 Part of embracing diversity is a willingness to embrace often uncomfortable conversations and situations. This concept is also at the core of inclusion and helping to eliminate the problems that are faced by certain team members who may not be in the majority.
