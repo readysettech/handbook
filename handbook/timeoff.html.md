@@ -18,7 +18,6 @@ you don’t need to provide prior notice aside from posting to the slack and add
 Due to our small team size, we ask for as early notice as possible if you plan to take longer periods of time off. 
 We would prefer at least 2 weeks' notice if you are taking 1+ consecutive week(s) off.
 
-
 ## Minimum Vacation Recommendation
 
 We highly recommend that you take a **minimum** of 3 weeks, or 15 workdays, off per year. 
@@ -28,6 +27,12 @@ though there may be more conversations for unique situations in which a team mem
 We are privileged to be a global team, 
 and we ask team members to take time off that is in line with their country's standards even if that's more than our minimum recommendation.
 
+## Vacation Best Practices 
+
+- Let the team know as soon as possible, especially for vacations spanning 3 or more business days. Even if you don't know exact dates, just knowing that you will be gone "for a few days near the end of june" is valuable for planning purposes.
+- For vacations mid project or unexpected vacations, check in with your manager around whether your projects need to be handed off in the meantime.
+- As a rule, taking one friday off should not equate to 8 extra hours of work earlier in the week, etc
+- The above are a list of recommendations, but we realize that life happens. In situations where advance notice is not possible, we expect both managers and teammates to work together to find a solution. 
 
 ## Parental Leave Policy
 
