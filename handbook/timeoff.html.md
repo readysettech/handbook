@@ -29,9 +29,9 @@ and we ask team members to take time off that is in line with their country's st
 
 ## Vacation Best Practices 
 
-- Let the team know as soon as possible, especially for vacations spanning 3 or more business days. Even if you don't know exact dates, just knowing that you will be gone "for a few days near the end of june" is valuable for planning purposes.
+- Let the team know as soon as possible, especially for vacations spanning 3 or more business days. Even if you don't know exact dates, just knowing that you will be gone "for a few days near the end of June" is valuable for planning purposes.
 - For vacations mid project or unexpected vacations, check in with your manager around whether your projects need to be handed off in the meantime.
-- As a rule, taking one friday off should not equate to 8 extra hours of work earlier in the week, etc
+- As a rule, taking one Friday off should not equate to 8 extra hours of work earlier in the week, etc.
 - The above are a list of recommendations, but we realize that life happens. In situations where advance notice is not possible, we expect both managers and teammates to work together to find a solution. 
 
 ## Parental Leave Policy
